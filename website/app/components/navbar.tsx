@@ -12,13 +12,13 @@ export default function Navbar(): JSX.Element {
 
             <div className="hidden items-center md:inline-flex">
                 <Link href="/">
-                    <button className="px-4 uppercase">Home</button>
+                    <button className="navButton">Home</button>
                 </Link>
                 <Link href="/projects">
-                    <button className="px-4 uppercase">Projects</button>
+                    <button className="navButton">Projects</button>
                 </Link>
                 <Link href="/specialization">
-                    <button className="px-4 uppercase">Specialization</button>
+                    <button className="navButton">Specialization</button>
                 </Link>
             </div>
 
