@@ -12,24 +12,24 @@ export default function Navbar(): JSX.Element {
     }
 
     return (
-        <div className="fixed w-full h-20 shadow-xl z-10">
+        <div className="bg-[#ecf0f3] fixed w-full h-20 shadow-xl z-10">
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
                 <Link href="/">
-                    <h2 className="px-4">Samuel</h2>
+                    <h2 className="px-4 text-[#F7AB0A]">Samuel</h2>
                 </Link>
                 <div>
                     <ul className="hidden md:flex uppercase">
                         <Link href="/">
-                            <li className="ml-10 text-sm hover:border-b hover:border-gray-500">Home</li>
+                            <li className="ml-10 text-sm border-b-2 border-transparent hover:border-[#F7AB0A]">Home</li>
                         </Link>
                         <Link href="/projects">
-                            <li className="ml-10 text-sm hover:border-b hover:border-gray-500">Projects</li>
+                            <li className="ml-10 text-sm border-b-2 border-transparent hover:border-[#F7AB0A]">Projects</li>
                         </Link>
                         <Link href="/specialization">
-                            <li className="ml-10 text-sm hover:border-b hover:border-gray-500">Specialization</li>
+                            <li className="ml-10 text-sm border-b-2 border-transparent hover:border-[#F7AB0A]">Specialization</li>
                         </Link>
                         <Link href="/contact">
-                            <li className="ml-10 text-sm hover:border-b hover:border-gray-500">Contact</li>
+                            <li className="ml-10 text-sm border-b-2 border-transparent hover:border-[#F7AB0A]">Contact</li>
                         </Link>
                     </ul>
                     <div onClick={toggleMenu} className="md:hidden cursor-pointer">
@@ -54,16 +54,16 @@ export default function Navbar(): JSX.Element {
                     <div className="py-4 flex flex-col">
                         <ul className="uppercase">
                             <Link href="/">
-                                <li className="py-4 text-sm hover:font-semibold">Home</li>
+                                <li onClick={ () => setShowMenu(false)} className="py-4 text-sm hover:font-semibold">Home</li>
                             </Link>
                             <Link href="/projects">
-                                <li className="py-4 text-sm hover:font-semibold">Projects</li>
+                                <li onClick={ () => setShowMenu(false)} className="py-4 text-sm hover:font-semibold">Projects</li>
                             </Link>
                             <Link href="/specialization">
-                                <li className="py-4 text-sm hover:font-semibold">Specialization</li>
+                                <li onClick={ () => setShowMenu(false)} className="py-4 text-sm hover:font-semibold">Specialization</li>
                             </Link>
                             <Link href="/contact">
-                                <li className="py-4 text-sm hover:font-semibold">Contact</li>
+                                <li onClick={ () => setShowMenu(false)} className="py-4 text-sm hover:font-semibold">Contact</li>
                             </Link>
                         </ul>
                         <div className="pt-40">
