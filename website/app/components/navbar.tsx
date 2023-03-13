@@ -15,7 +15,7 @@ export default function Navbar(): JSX.Element {
         <div className="fixed w-full h-20 shadow-xl z-10">
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
                 <Link href="/">
-                    <h1 className="text-2xl font-bold px-4">Samuel</h1>
+                    <h2 className="px-4">Samuel</h2>
                 </Link>
                 <div>
                     <ul className="hidden md:flex">
@@ -43,7 +43,7 @@ export default function Navbar(): JSX.Element {
                     ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
                     : "fixed left-[-100%] top-0 p-10 ease-in duration-500"}>
                     <div className="flex w-full items-center justify-between">
-                        <h1 className="text-3xl font-bold">Samuel</h1>
+                        <h2>Samuel</h2>
                         <div onClick={toggleMenu} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                             <AiOutlineClose />
                         </div>
