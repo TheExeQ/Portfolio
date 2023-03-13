@@ -12,7 +12,7 @@ export default function Home(): JSX.Element {
   })
 
   return (
-    <div className="w-full h-screen text-center md:text-left">
+    <div className="w-full h-screen mt-20 md:mt-0 text-center md:text-left">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="md:grid grid-cols-3 gap-8">
           <div className="flex justify-center py-2">
@@ -29,7 +29,7 @@ export default function Home(): JSX.Element {
                 duration: 1.0,
               }}
               src="https://avatars.githubusercontent.com/u/26822321?v=4"
-              className=" md:mb-0 flex-shrink-0 object-cover object-center rounded-full w-64 h-64 md:rounded-lg md:w-80 md:h-80 lg:w-96 lg:h-96"
+              className=" md:mb-0 flex-shrink-0 object-cover object-center rounded-full w-48 h-48 md:rounded-lg md:w-80 md:h-80 lg:w-96 lg:h-96"
             />
           </div>
           <div className="col-span-2">
@@ -37,7 +37,7 @@ export default function Home(): JSX.Element {
               <p className="font-semibold uppercase text-sm tracking-widest text-gray-600">
                 Welcome to my Portfolio
               </p>
-              <h1 className="py-4 text-gray-700">
+              <h1 className="h-24 md:h-auto py-4 text-gray-700">
                 Hi, I'm <span className="text-[#F7AB0A]">{text}</span>
                 <Cursor cursorColor="#F7AB0A" />
               </h1>
