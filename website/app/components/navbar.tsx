@@ -43,12 +43,12 @@ export default function Navbar(): JSX.Element {
                     ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
                     : "fixed left-[-100%] top-0 p-10 ease-in duration-500"}>
                     <div className="flex w-full items-center justify-between">
-                        <h2>Samuel</h2>
+                    <h2 className="text-[#F7AB0A]">Samuel</h2>
                         <div onClick={toggleMenu} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                             <AiOutlineClose />
                         </div>
                     </div>
-                    <div className="font-semibold border-b border-gray-300 my-4">
+                    <div className="font-semibold border-b border-[#F7AB0A] my-4">
                         <p>Welcome to my Portfolio</p>
                     </div>
                     <div className="py-4 flex flex-col">
@@ -67,21 +67,21 @@ export default function Navbar(): JSX.Element {
                             </Link>
                         </ul>
                         <div className="pt-40">
-                            <p className="uppercase tracking-widest text-[#5651e5]">Let's Connect</p>
+                            <p className="uppercase tracking-widest text-[#F7AB0A]">Let's Connect</p>
                             <div className="flex items-center justify-between my-4 w-full sm:w-[75%]">
                                 <a href="https://www.linkedin.com/in/samuelryberg/" target="_blank">
                                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
-                                        <FaLinkedinIn />
+                                        <FaLinkedinIn color="#F7AB0A"/>
                                     </div>
                                 </a>
                                 <a href="https://github.com/theexeq/" target="_blank">
                                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
-                                        <FaGithub />
+                                        <FaGithub color="#F7AB0A"/>
                                     </div>
                                 </a>
                                 <a href="https://www.instagram.com/samuelryberg/" target="_blank">
                                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300">
-                                        <FaInstagram />
+                                        <FaInstagram color="#F7AB0A"/>
                                     </div>
                                 </a>
                             </div>

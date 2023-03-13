@@ -126,7 +126,7 @@ export default function Contact(): JSX.Element {
                                 </button>
                             </form>
                             <p className="text-center w-full uppercase py-2 mt-4">or</p>
-                            <p className="text-center w-full py-2">Manually via: <a href="mailto:samuel.ryberg@gmail.com" className="text-[#F7AB0A] underline">Samuel.Ryberg@gmail.com</a></p>
+                            <p className="text-center w-full py-2">Manually to: <a href="mailto:samuel.ryberg@gmail.com" className="text-[#F7AB0A] underline">Samuel.Ryberg@gmail.com</a></p>
                         </div>
                     </div>
                 </div>
