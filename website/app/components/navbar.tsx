@@ -18,18 +18,18 @@ export default function Navbar(): JSX.Element {
                     <h2 className="px-4">Samuel</h2>
                 </Link>
                 <div>
-                    <ul className="hidden md:flex">
+                    <ul className="hidden md:flex uppercase">
                         <Link href="/">
-                            <li className="ml-10 text-sm hover:border-b">Home</li>
+                            <li className="ml-10 text-sm hover:border-b hover:border-gray-500">Home</li>
                         </Link>
                         <Link href="/projects">
-                            <li className="ml-10 text-sm hover:border-b">Projects</li>
+                            <li className="ml-10 text-sm hover:border-b hover:border-gray-500">Projects</li>
                         </Link>
                         <Link href="/specialization">
-                            <li className="ml-10 text-sm hover:border-b">Specialization</li>
+                            <li className="ml-10 text-sm hover:border-b hover:border-gray-500">Specialization</li>
                         </Link>
                         <Link href="/contact">
-                            <li className="ml-10 text-sm hover:border-b">Contact</li>
+                            <li className="ml-10 text-sm hover:border-b hover:border-gray-500">Contact</li>
                         </Link>
                     </ul>
                     <div onClick={toggleMenu} className="md:hidden cursor-pointer">
