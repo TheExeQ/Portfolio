@@ -4,6 +4,8 @@ import { motion } from "framer-motion"
 import { Cursor, useTypewriter } from "react-simple-typewriter"
 import { FaLinkedinIn, FaGithub, FaInstagram } from 'react-icons/fa';
 
+import ProjectView from './components/projectsview'
+
 export default function Home(): JSX.Element {
   const [text, count] = useTypewriter({
     words: ["Samuel Ryberg.", "a Game Developer."],
@@ -65,6 +67,9 @@ export default function Home(): JSX.Element {
             </div>
           </div>
         </div>
+      </div>
+      <div className="w-full">
+        <ProjectView />
       </div>
     </div>
   )

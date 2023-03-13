@@ -4,7 +4,7 @@ import Footer from './components/footer'
 
 export const metadata = {
   title: 'Samuel Ryberg',
-  description: 'Samuel Ryberg Game Developer Portfolio',
+  description: 'Samuel Ryberg - Game Developer Portfolio',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }): JSX.Element {
@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }):
       <body>
         <Navbar />
         {children}
-        <Footer />
+        {/*<Footer />*/}
       </body>
     </html>
   )

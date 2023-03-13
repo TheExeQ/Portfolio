@@ -2,9 +2,11 @@ import React from 'react'
 
 export default function Contact(): JSX.Element {
     return (
-        <div className='w-full h-screen'>
-            <div className='h-full flex justify-center items-center'>
-                <h1>Contact</h1>
+        <div className='h-screen pt-20'>
+            <div className="max-w-[1240px] mx-auto px-2 py-16">
+                <p className="text-xl tracking tracking-widest uppercase text-[#F7AB0A]">
+                    Contact
+                </p>
             </div>
         </div>
     )
