@@ -14,6 +14,10 @@ export default function Contact(): JSX.Element {
     const [message, setMessage] = useState<string>();
 
     const handleSubmit = (e : React.FormEvent<HTMLFormElement>) => {
+        setError("Form not setup, please send manually instead");
+        e.preventDefault();
+        return;
+
         const pickedDate = Date.parse("26-April-2023");
         const todaysDate = new Date();
         if (todaysDate.getTime() < pickedDate) {
