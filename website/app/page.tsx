@@ -14,7 +14,7 @@ export default function Home(): JSX.Element {
   })
 
   return (
-    <div className="w-full h-screen mt-20 md:mt-0 text-center md:text-left">
+    <div className="w-full h-screen text-center md:text-left">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div className="md:grid grid-cols-3 gap-8">
           <div className="flex justify-center py-2">
