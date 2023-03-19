@@ -36,7 +36,9 @@ export default function Project(props: ProjectProps): JSX.Element {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quaerat, expedita veritatis cum praesentium commodi, quas eaque necessitatibus deserunt natus, nobis asperiores a iure illum excepturi repudiandae nostrum! Sunt, id.
                     </div>
                     <div className="p-4 md:col-span-2 shadow-lg rounded-lg">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus porro voluptas ullam iste odit veritatis qui culpa, sapiente dicta unde atque, iure, quae placeat officiis ab saepe aliquam aperiam beatae?
+                        <video height="300" width="500" poster="/assets/projects/akaya.png" controls>
+                            <source src="/assets/projects/spite.mp4" type="video/mp4"></source>
+                        </video>
                     </div>
                 </div>
             </div>
