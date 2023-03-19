@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import AkayaImage from '../../public/assets/akaya.png'
+import AkayaImage from '../../public/assets/projects/akaya.png'
 
 export interface ProjectProps {
     title: string;
