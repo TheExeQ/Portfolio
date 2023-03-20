@@ -1,9 +1,16 @@
 import Image from 'next/image'
 import AkayaImage from '../../public/assets/projects/akaya.png'
 
+interface ProjectContainerProps {
+    text: string;
+    video: string;
+    poster: string;
+}
+
 export interface ProjectProps {
     title: string;
     studio: string;
+    containers: ProjectContainerProps[];
 }
 
 export default function Project(props: ProjectProps): JSX.Element {
@@ -23,24 +30,32 @@ export default function Project(props: ProjectProps): JSX.Element {
             </div>
 
             <div className="flex flex-col w-screen justify-center items-center">
-                <div className="max-w-[1240px] w-full py-10 grid md:grid-cols-5 gap-8 border-t-2 border-gray-200">
-                    <div className="p-4 md:col-span-3 text-center shadow-lg rounded-lg">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quaerat, expedita veritatis cum praesentium commodi, quas eaque necessitatibus deserunt natus, nobis asperiores a iure illum excepturi repudiandae nostrum! Sunt, id.
-                    </div>
-                    <div className="p-4 md:col-span-2 shadow-lg rounded-lg">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus porro voluptas ullam iste odit veritatis qui culpa, sapiente dicta unde atque, iure, quae placeat officiis ab saepe aliquam aperiam beatae?
-                    </div>
-                </div>
-                <div className="max-w-[1240px] w-full py-10 grid md:grid-cols-5 gap-8 border-t-2 border-gray-200">
-                    <div className="p-4 md:col-span-3 text-center shadow-lg rounded-lg">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quaerat, expedita veritatis cum praesentium commodi, quas eaque necessitatibus deserunt natus, nobis asperiores a iure illum excepturi repudiandae nostrum! Sunt, id.
-                    </div>
-                    <div className="p-4 md:col-span-2 shadow-lg rounded-lg">
-                        <video height="300" width="500" poster="/assets/projects/akaya.png" controls>
-                            <source src="/assets/projects/spite.mp4" type="video/mp4"></source>
-                        </video>
-                    </div>
-                </div>
+                {props.containers.map((container, index) => {
+                    return (index % 2 == 0) ? (
+                        <div className="max-w-[1240px] w-full py-10 grid md:grid-cols-5 gap-8 border-t-2 border-gray-300">
+                            <div className="p-4 md:col-span-3 text-center shadow-lg rounded-lg">
+                                {container.text}
+                            </div>
+                            <div className="p-4 md:col-span-2 shadow-lg rounded-lg">
+                                <video height="300" width="500" poster={container.poster} controls>
+                                    <source src={container.video} type="video/mp4"></source>
+                                </video>
+                            </div>
+                        </div>
+                    ) :
+                        (
+                            <div className="max-w-[1240px] w-full py-10 grid md:grid-cols-5 gap-8 border-t-2 border-gray-300">
+                                <div className="p-4 md:col-span-2 shadow-lg rounded-lg">
+                                    <video height="300" width="500" poster={container.poster} controls>
+                                        <source src={container.video} type="video/mp4"></source>
+                                    </video>
+                                </div>
+                                <div className="p-4 md:col-span-3 text-center shadow-lg rounded-lg">
+                                    {container.text}
+                                </div>
+                            </div>
+                        )
+                })}
             </div>
         </div>
     )
