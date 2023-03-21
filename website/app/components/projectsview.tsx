@@ -1,13 +1,13 @@
 import React from 'react'
 import ProjectItem from './projectitem'
 
-import PotionRunImage from '../../public/assets/projects/potionrun.png'
-import HungryHouseImage from '../../public/assets/projects/hungryhouse.png'
-import CuteEmUpImage from '../../public/assets/projects/cuteemup.png'
-import BardKnightImage from '../../public/assets/projects/bardknight.png'
-import BoImage from '../../public/assets/projects/bo.png'
-import SpiteImage from '../../public/assets/projects/spite.png'
-import AkayaImage from '../../public/assets/projects/akaya.png'
+import PotionRunImage from '../../public/assets/projects/potionrun/potionrun.png'
+import HungryHouseImage from '../../public/assets/projects/hungryhouse/hungryhouse.png'
+import CuteEmUpImage from '../../public/assets/projects/cuteemup/cuteemup.png'
+import BardKnightImage from '../../public/assets/projects/bardknight/bardknight.png'
+import BoImage from '../../public/assets/projects/morningofbo/bo.png'
+import SpiteImage from '../../public/assets/projects/spiteyellowplague/spite.png'
+import AkayaImage from '../../public/assets/projects/akayaandpebbles/akaya.png'
 
 export default function Projects(): JSX.Element {
     return (

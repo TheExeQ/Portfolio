@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import AkayaImage from '../../public/assets/projects/akaya.png'
+import AkayaImage from '../../public/assets/projects/akayaandpebbles/akaya.png'
 
 interface ProjectContainerProps {
     content: JSX.Element;

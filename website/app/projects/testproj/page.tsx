@@ -16,8 +16,8 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/spite.mp4",
-            poster: "/assets/projects/hungryhouse.png"
+            video: "/assets/projects/hungryhouse/hungryhouse.mp4",
+            poster: "/assets/projects/hungryhouse/hungryhouse.png"
         },
         {
             content:
@@ -31,8 +31,8 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/spite.mp4",
-            poster: "/assets/projects/bo.png"
+            video: "/assets/projects/morningofbo/bo.mp4",
+            poster: "/assets/projects/morningofbo/bo.png"
         },
         {
             content:
@@ -46,8 +46,8 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/spite.mp4",
-            poster: "/assets/projects/bardknight.png"
+            video: "/assets/projects/bardknight/bardknight.mp4",
+            poster: "/assets/projects/bardknight/bardknight.png"
         }
     ]
 }
