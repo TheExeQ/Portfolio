@@ -2,7 +2,7 @@ import Image from 'next/image'
 import AkayaImage from '../../public/assets/projects/akaya.png'
 
 interface ProjectContainerProps {
-    text: string;
+    content: JSX.Element;
     video: string;
     poster: string;
 }
@@ -34,24 +34,38 @@ export default function Project(props: ProjectProps): JSX.Element {
                     return (index % 2 == 0) ? (
                         <div className="max-w-[1240px] w-full py-10 grid md:grid-cols-5 gap-8 border-t-2 border-gray-300">
                             <div className="p-4 md:col-span-3 text-center shadow-lg rounded-lg">
-                                {container.text}
+                                {container.content}
                             </div>
                             <div className="p-4 md:col-span-2 shadow-lg rounded-lg">
-                                <video height="300" width="500" poster={container.poster} controls>
-                                    <source src={container.video} type="video/mp4"></source>
-                                </video>
+                                {container.video.trim() !== "" ?
+                                    (
+                                        <video height="300" width="500" poster={container.poster} controls>
+                                            <source src={container.video} type="video/mp4"></source>
+                                        </video>
+                                    ) :
+                                    (
+                                        <Image height="300" width="500" src={container.poster} alt=""/>
+                                    )
+                                }
                             </div>
                         </div>
                     ) :
                         (
                             <div className="max-w-[1240px] w-full py-10 grid md:grid-cols-5 gap-8 border-t-2 border-gray-300">
                                 <div className="p-4 md:col-span-2 shadow-lg rounded-lg">
-                                    <video height="300" width="500" poster={container.poster} controls>
-                                        <source src={container.video} type="video/mp4"></source>
-                                    </video>
+                                    {container.video.trim() !== "" ?
+                                        (
+                                            <video height="300" width="500" poster={container.poster} controls>
+                                                <source src={container.video} type="video/mp4"></source>
+                                            </video>
+                                        ) :
+                                        (
+                                            <Image height="300" width="500" src={container.poster} alt="" />
+                                        )
+                                    }
                                 </div>
                                 <div className="p-4 md:col-span-3 text-center shadow-lg rounded-lg">
-                                    {container.text}
+                                    {container.content}
                                 </div>
                             </div>
                         )
