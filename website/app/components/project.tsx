@@ -32,7 +32,7 @@ export default function Project(props: ProjectProps): JSX.Element {
             <div className="flex flex-col w-screen justify-center items-center">
                 {props.containers.map((container, index) => {
                     return (index % 2 == 0) ? (
-                        <div className="max-w-[1240px] w-full py-10 grid md:grid-cols-5 gap-8 border-t-2 border-gray-300">
+                        <div key={index} className="max-w-[1240px] w-full py-10 grid md:grid-cols-5 gap-8 border-t-2 border-gray-300">
                             <div className="p-4 md:col-span-3 text-center shadow-lg rounded-lg">
                                 {container.content}
                             </div>
@@ -51,7 +51,7 @@ export default function Project(props: ProjectProps): JSX.Element {
                         </div>
                     ) :
                         (
-                            <div className="max-w-[1240px] w-full py-10 grid md:grid-cols-5 gap-8 border-t-2 border-gray-300">
+                            <div key={index} className="max-w-[1240px] w-full py-10 grid md:grid-cols-5 gap-8 border-t-2 border-gray-300">
                                 <div className="p-4 md:col-span-2 shadow-lg rounded-lg">
                                     {container.video.trim() !== "" ?
                                         (
