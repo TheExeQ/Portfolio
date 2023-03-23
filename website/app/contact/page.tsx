@@ -1,6 +1,6 @@
 "use client";
 import { time } from 'console';
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 import { FaLinkedinIn, FaGithub, FaInstagram } from 'react-icons/fa';
 
@@ -12,6 +12,10 @@ export default function Contact(): JSX.Element {
     const [email, setEmail] = useState<string>();
     const [subject, setSubject] = useState<string>();
     const [message, setMessage] = useState<string>();
+
+    useEffect(() => {
+        setError("Form not setup, please send manually instead");
+    }, []);
 
     const handleSubmit = (e : React.FormEvent<HTMLFormElement>) => {
         setError("Form not setup, please send manually instead");
@@ -78,7 +82,7 @@ export default function Contact(): JSX.Element {
                         <div className="p-4">
                             <form
                                 onSubmit={handleSubmit}
-                                action="https://getform.io/f/944db409-1cec-49e7-9506-667a1f93e2ce"
+                                action=""
                                 method="POST"
                                 encType="multipart/form-data"
                             >
@@ -86,38 +90,42 @@ export default function Contact(): JSX.Element {
                                     <div className="flex flex-col">
                                         <label className="uppercase text-sm py-2 font-semibold">Name<span className="text-red-400">*</span></label>
                                         <input
-                                            className="border-2 rounded-lg p-3 flex border-gray-300"
+                                            className="border-2 rounded-lg p-3 flex border-gray-300 hover:cursor-not-allowed"
                                             type="text"
                                             name="name"
                                             onChange={(e) => { setName(e.target.value) }}
+                                            disabled={true}
                                         />
                                     </div>
                                 </div>
                                 <div className="flex flex-col py-2 w-[75%]">
                                     <label className="uppercase text-sm py-2 font-semibold">Email<span className="text-red-400">*</span></label>
                                     <input
-                                        className="border-2 rounded-lg p-3 flex border-gray-300"
+                                        className="border-2 rounded-lg p-3 flex border-gray-300 hover:cursor-not-allowed"
                                         type="email"
                                         name="email"
                                         onChange={(e) => { setEmail(e.target.value)}}
+                                        disabled={true}
                                     />
                                 </div>
                                 <div className="flex flex-col py-2">
                                     <label className="uppercase text-sm py-2 font-semibold">Subject<span className="text-red-400">*</span></label>
                                     <input
-                                        className="border-2 rounded-lg p-3 flex border-gray-300"
+                                        className="border-2 rounded-lg p-3 flex border-gray-300 hover:cursor-not-allowed"
                                         type="text"
                                         name="subject"
                                         onChange={(e) => { setSubject(e.target.value)}}
+                                        disabled={true}
                                     />
                                 </div>
                                 <div className="flex flex-col py-2">
                                     <label className="uppercase text-sm py-2 font-semibold">Message<span className="text-red-400">*</span></label>
                                     <textarea
-                                        className="border-2 rounded-lg p-3 border-gray-300"
+                                        className="border-2 rounded-lg p-3 border-gray-300 hover:cursor-not-allowed"
                                         rows={10}
                                         name="message"
                                         onChange={(e) => { setMessage(e.target.value)}}
+                                        disabled={true}
                                     ></textarea>
                                 </div>
                                 <div className="text-red-400">
@@ -125,7 +133,7 @@ export default function Contact(): JSX.Element {
                                         {error ? error : ""}
                                     </p>
                                 </div>
-                                <button className="w-full p-4 text-gray-100 mt-4">
+                                <button className="w-full p-4 text-gray-100 mt-4 hover:cursor-not-allowed" disabled={true}>
                                     Send Message
                                 </button>
                             </form>
