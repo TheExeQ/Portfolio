@@ -6,7 +6,6 @@ on:
       - master
       - main
 
-
 env:
   PROJECT_ID: ${{ secrets.CLOUD_RUN_PROJECT_NAME }}
   REGION: europe-north1-a
@@ -33,7 +32,7 @@ jobs:
 
       - name: "Build and tag the docker image"
         run: |-
-          docker build . --tag gcr.io/$PROJECT_ID/$REPO_NAME:$GITHUB_SHA
+          docker build ./website/ --tag gcr.io/$PROJECT_ID/$REPO_NAME:$GITHUB_SHA
 
       - name: "Push the image to Google Container Registry (GCR)"
         run: |-
