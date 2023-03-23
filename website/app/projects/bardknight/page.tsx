@@ -32,8 +32,8 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/morningofbo/bo.mp4",
-            poster: "/assets/projects/morningofbo/bo.png"
+            video: "",
+            poster: "/assets/projects/bardknight/WalkFallAnimation.gif"
         },
         {
             content:
@@ -47,8 +47,8 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/bardknight/bardknight.mp4",
-            poster: "/assets/projects/bardknight/bardknight.png"
+            video: "/assets/projects/bardknight/PlayerPhysXMovement.mp4",
+            poster: ""
         }
     ]
 }

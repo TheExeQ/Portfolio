@@ -32,8 +32,8 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/morningofbo/bo.mp4",
-            poster: "/assets/projects/morningofbo/bo.png"
+            video: "/assets/projects/hungryhouse/DivideBug.mp4",
+            poster: ""
         },
         {
             content:
@@ -47,8 +47,38 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/bardknight/bardknight.mp4",
-            poster: "/assets/projects/bardknight/bardknight.png"
+            video: "/assets/projects/hungryhouse/Cutscene.mp4",
+            poster: ""
+        },
+        {
+            content:
+                (
+                    <div className="flex flex-col justify-center items-center">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Tenetur quaerat, expedita veritatis cum praesentium commodi, quas eaque necessitatibus deserunt natus,
+                            nobis asperiores a iure illum excepturi repudiandae nostrum! Sunt, id.
+                        </p>
+                    </div>
+                )
+            ,
+            video: "/assets/projects/hungryhouse/HouseAnimBug.mp4",
+            poster: ""
+        },
+        {
+            content:
+                (
+                    <div className="flex flex-col justify-center items-center">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Tenetur quaerat, expedita veritatis cum praesentium commodi, quas eaque necessitatibus deserunt natus,
+                            nobis asperiores a iure illum excepturi repudiandae nostrum! Sunt, id.
+                        </p>
+                    </div>
+                )
+            ,
+            video: "/assets/projects/hungryhouse/PredatorAnim.mp4",
+            poster: ""
         }
     ]
 }
