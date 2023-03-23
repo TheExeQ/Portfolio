@@ -1,13 +1,62 @@
-import React from 'react'
+import Project, { ProjectProps } from '../components/project'
 
-export default function Specialization(): JSX.Element {
+const projectProp: ProjectProps = {
+    title: 'Network Replication System',
+    studio: '',
+    poster: "/assets/projects/potionrun/potionrun.png",
+    containers: [
+        {
+            content:
+                (
+                    <div className="flex flex-col justify-center items-center">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Tenetur quaerat, expedita veritatis cum praesentium commodi, quas eaque necessitatibus deserunt natus,
+                            nobis asperiores a iure illum excepturi repudiandae nostrum! Sunt, id.
+                        </p>
+                    </div>
+                )
+            ,
+            video: "/assets/projects/potionrun/potionrun.mov",
+            poster: "/assets/projects/potionrun/potionrun.png"
+        },
+        {
+            content:
+                (
+                    <div className="flex flex-col justify-center items-center">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Tenetur quaerat, expedita veritatis cum praesentium commodi, quas eaque necessitatibus deserunt natus,
+                            nobis asperiores a iure illum excepturi repudiandae nostrum! Sunt, id.
+                        </p>
+                    </div>
+                )
+            ,
+            video: "/assets/projects/morningofbo/bo.mp4",
+            poster: "/assets/projects/morningofbo/bo.png"
+        },
+        {
+            content:
+                (
+                    <div className="flex flex-col justify-center items-center">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Tenetur quaerat, expedita veritatis cum praesentium commodi, quas eaque necessitatibus deserunt natus,
+                            nobis asperiores a iure illum excepturi repudiandae nostrum! Sunt, id.
+                        </p>
+                    </div>
+                )
+            ,
+            video: "/assets/projects/bardknight/bardknight.mp4",
+            poster: "/assets/projects/bardknight/bardknight.png"
+        }
+    ]
+}
+
+export default function Projects(): JSX.Element {
     return (
-        <div className='h-screen pt-20'>
-            <div className="max-w-[1240px] mx-auto px-2 py-16">
-                <p className="text-xl tracking tracking-widest uppercase text-[#F7AB0A]">
-                    Specialization
-                </p>
-            </div>
+        <div className="w-full">
+            <Project {...projectProp} />
         </div>
     )
 }

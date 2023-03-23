@@ -17,7 +17,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/potionrun/potionrun.mp4",
+            video: "/assets/projects/potionrun/potionrun.mov",
             poster: "/assets/projects/potionrun/potionrun.png"
         },
         {

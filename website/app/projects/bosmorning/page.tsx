@@ -1,7 +1,7 @@
 import Project, { ProjectProps } from '../../components/project'
 
 const projectProp: ProjectProps = {
-    title: `Bo's Morning'`,
+    title: `Bo's Morning`,
     studio: 'Sad Centaur',
     poster: "/assets/projects/morningofbo/bo.png",
     containers: [
