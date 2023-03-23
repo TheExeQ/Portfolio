@@ -1,10 +1,10 @@
 import Link from "next/link"
-import Image, { StaticImageData } from "next/image"
+import Image from "next/image"
 
 interface Props {
     title: string;
     studio: string;
-    image: StaticImageData;
+    image: string;
 }
 
 export default function ProjectItem(props: Props): JSX.Element {
