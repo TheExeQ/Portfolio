@@ -8,7 +8,7 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.CLOUD_RUN_PROJECT_NAME }}
-  REGION: europe-north1-a
+  REGION: europe-north1
   REPO_NAME: samuel-ryberg-portfolio
 
 jobs:
