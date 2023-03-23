@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import AkayaImage from '../../public/assets/projects/akayaandpebbles/akaya.png'
 
 interface ProjectContainerProps {
     content: JSX.Element;
@@ -10,6 +9,7 @@ interface ProjectContainerProps {
 export interface ProjectProps {
     title: string;
     studio: string;
+    poster: string;
     containers: ProjectContainerProps[];
 }
 
@@ -17,8 +17,8 @@ export default function Project(props: ProjectProps): JSX.Element {
     return (
         <div className="w-full mt-auto">
             <div className="w-screen h-[30vh] lg:h-[40vh] relative">
-                <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
-                <Image className="absolute z-1" layout="fill" objectFit="cover" src={AkayaImage} alt="/" />
+                <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/60 z-10" />
+                <Image className="absolute z-1" layout="fill" objectFit="cover" src={props.poster} alt="/" />
                 <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-4">
                     <h2 className="py-2 border-b-2 border-[#F7AB0A] inline-block">
                         {props.title}

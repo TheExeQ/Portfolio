@@ -1,8 +1,9 @@
 import Project, { ProjectProps } from '../../components/project'
 
 const projectProp: ProjectProps = {
-    title: 'Akaya & Pebbles',
-    studio: 'Coinflip Studios',
+    title: 'Bard Knight',
+    studio: 'Grump Studios',
+    poster: "/assets/projects/bardknight/bardknight.png",
     containers: [
         {
             content:
@@ -16,8 +17,8 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/hungryhouse/hungryhouse.mp4",
-            poster: "/assets/projects/hungryhouse/hungryhouse.png"
+            video: "/assets/projects/bardknight/bardknight.mp4",
+            poster: "/assets/projects/bardknight/bardknight.png"
         },
         {
             content:
