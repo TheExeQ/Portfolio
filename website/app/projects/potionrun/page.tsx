@@ -32,7 +32,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/potionrun/LevelTransition.mp4",
+            video: "/assets/projects/potionrun/leveltransition.mp4",
             poster: ""
         },
         {
@@ -47,7 +47,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/potionrun/MonsterShowcase.mp4",
+            video: "/assets/projects/potionrun/monstershowcase.mp4",
             poster: ""
         },
         {
@@ -62,7 +62,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/potionrun/BlockGenerator.mp4",
+            video: "/assets/projects/potionrun/blockgenerator.mp4",
             poster: ""
         },
         {
@@ -77,7 +77,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/potionrun/CheckpointsAlpha.mp4",
+            video: "/assets/projects/potionrun/checkpointsalpha.mp4",
             poster: ""
         }
     ]

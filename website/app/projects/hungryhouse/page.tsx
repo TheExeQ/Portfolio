@@ -32,7 +32,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/hungryhouse/DivideBug.mp4",
+            video: "/assets/projects/hungryhouse/dividebug.mp4",
             poster: ""
         },
         {
@@ -47,7 +47,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/hungryhouse/Cutscene.mp4",
+            video: "/assets/projects/hungryhouse/cutscene.mp4",
             poster: ""
         },
         {
@@ -62,7 +62,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/hungryhouse/HouseAnimBug.mp4",
+            video: "/assets/projects/hungryhouse/houseanimbug.mp4",
             poster: ""
         },
         {
@@ -77,7 +77,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/hungryhouse/PredatorAnim.mp4",
+            video: "/assets/projects/hungryhouse/predatoranim.mp4",
             poster: ""
         }
     ]

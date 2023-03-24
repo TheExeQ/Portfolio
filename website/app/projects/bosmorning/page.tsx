@@ -32,7 +32,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/morningofbo/HedgehogAttack.mp4",
+            video: "/assets/projects/morningofbo/hedgehogattack.mp4",
             poster: ""
         },
         {
@@ -48,7 +48,7 @@ const projectProp: ProjectProps = {
                 )
             ,
             video: "",
-            poster: "/assets/projects/morningofbo/FrogAttacking.gif"
+            poster: "/assets/projects/morningofbo/frogattacking.gif"
         }
     ]
 }

@@ -32,7 +32,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/spiteyellowplague/FinalNavMeshTool.mp4",
+            video: "/assets/projects/spiteyellowplague/finalnavmeshtool.mp4",
             poster: ""
         },
         {
@@ -47,7 +47,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/spiteyellowplague/NavMeshInGame.mp4",
+            video: "/assets/projects/spiteyellowplague/navmeshingame.mp4",
             poster: ""
         },
         {
@@ -62,7 +62,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/spiteyellowplague/NavMeshAi.mp4",
+            video: "/assets/projects/spiteyellowplague/navmeshai.mp4",
             poster: ""
         },
         {
@@ -77,7 +77,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/spiteyellowplague/NavMeshGeneration.mp4",
+            video: "/assets/projects/spiteyellowplague/navmeshgeneration.mp4",
             poster: ""
         }
     ]

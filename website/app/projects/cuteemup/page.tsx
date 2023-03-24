@@ -33,7 +33,7 @@ const projectProp: ProjectProps = {
                 )
             ,
             video: "",
-            poster: "/assets/projects/cuteemup/BossBulletHell.png"
+            poster: "/assets/projects/cuteemup/bossbullethell.png"
         },
         {
             content:
@@ -48,7 +48,7 @@ const projectProp: ProjectProps = {
                 )
             ,
             video: "",
-            poster: "/assets/projects/cuteemup/BossMultiBullets.png"
+            poster: "/assets/projects/cuteemup/bossmultibullets.png"
         },
         {
             content:
@@ -63,7 +63,7 @@ const projectProp: ProjectProps = {
                 )
             ,
             video: "",
-            poster: "/assets/projects/cuteemup/BossNormalBullets.png"
+            poster: "/assets/projects/cuteemup/bossnormalbullets.png"
         }
     ]
 }

@@ -3,7 +3,7 @@ import Project, { ProjectProps } from '../../components/project'
 const projectProp: ProjectProps = {
     title: 'Bard Knight',
     studio: 'Grump Studios',
-    poster: "/assets/projects/bardknight/bardknight.png",
+    poster: "/assets/projects/bardKnight/bardknight.png",
     containers: [
         {
             content:
@@ -17,8 +17,8 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/bardknight/bardknight.mp4",
-            poster: "/assets/projects/bardknight/bardknight.png"
+            video: "/assets/projects/bardKnight/bardknight.mp4",
+            poster: "/assets/projects/bardKnight/bardknight.png"
         },
         {
             content:
@@ -33,7 +33,7 @@ const projectProp: ProjectProps = {
                 )
             ,
             video: "",
-            poster: "/assets/projects/bardknight/WalkFallAnimation.gif"
+            poster: "/assets/projects/bardKnight/walkfallanimation.gif"
         },
         {
             content:
@@ -47,7 +47,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/bardknight/PlayerPhysXMovement.mp4",
+            video: "/assets/projects/bardknight/playerphysxmovement.mp4",
             poster: ""
         }
     ]

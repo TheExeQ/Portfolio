@@ -1,5 +1,9 @@
 FROM node:16.13.0-alpine
 
+EXPOSE 3000
+
+ENV PORT=3000
+
 WORKDIR /usr/app
 
 COPY . .

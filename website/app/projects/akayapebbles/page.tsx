@@ -32,7 +32,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/AkayaAndPebbles/AkayaControlReference.mp4",
+            video: "/assets/projects/akayaandpebbles/akayacontrolreference.mp4",
             poster: ""
         },
         {
@@ -47,7 +47,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/AkayaAndPebbles/MonoStrings.mp4",
+            video: "/assets/projects/akayaandpebbles/monostrings.mp4",
             poster: ""
         },
         {
@@ -62,7 +62,7 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/AkayaAndPebbles/TelekinesisPrototype.mp4",
+            video: "/assets/projects/akayaandpebbles/telekinesisprototype.mp4",
             poster: ""
         }
     ]
