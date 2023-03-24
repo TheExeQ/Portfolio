@@ -6,8 +6,6 @@ ENV PORT=3000
 
 WORKDIR /usr/app
 
-COPY . .
-
 RUN npm install
 
 #RUN npm ci --only=production
