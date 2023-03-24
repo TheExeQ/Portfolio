@@ -17,8 +17,8 @@ const projectProp: ProjectProps = {
                     </div>
                 )
             ,
-            video: "/assets/projects/bardKnight/bardknight.mp4",
-            poster: "/assets/projects/bardKnight/bardknight.png"
+            video: "/assets/projects/bardknight/bardknight.mp4",
+            poster: "/assets/projects/bardknight/bardknight.png"
         },
         {
             content:
@@ -33,7 +33,7 @@ const projectProp: ProjectProps = {
                 )
             ,
             video: "",
-            poster: "/assets/projects/bardKnight/walkfallanimation.gif"
+            poster: "/assets/projects/bardknight/walkfallanimation.gif"
         },
         {
             content:
