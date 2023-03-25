@@ -3,7 +3,7 @@ import Project, { ProjectProps } from '../../components/project'
 const projectProp: ProjectProps = {
     title: 'Bard Knight',
     studio: 'Grump Studios',
-    poster: "/assets/projects/bardKnight/bardknight.png",
+    poster: "/assets/projects/bardknight/bardknight.png",
     containers: [
         {
             content:
