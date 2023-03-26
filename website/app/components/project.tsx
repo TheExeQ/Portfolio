@@ -39,12 +39,12 @@ export default function Project(props: ProjectProps): JSX.Element {
                             <div className="p-4 md:col-span-2 shadow-lg rounded-lg">
                                 {container.video.trim() !== "" ?
                                     (
-                                        <video height="300" width="500" poster={container.poster} controls>
+                                        <video className="w-full h-full" width={1920} height={1080} poster={container.poster} controls>
                                             <source src={container.video} type="video/mp4"></source>
                                         </video>
                                     ) :
                                     (
-                                        <Image height="300" width="500" src={container.poster} alt=""/>
+                                        <Image className="w-full h-full" width={1920} height={1080} src={container.poster} alt=""/>
                                     )
                                 }
                             </div>
@@ -55,12 +55,12 @@ export default function Project(props: ProjectProps): JSX.Element {
                                 <div className="p-4 md:col-span-2 shadow-lg rounded-lg">
                                     {container.video.trim() !== "" ?
                                         (
-                                            <video height="300" width="500" poster={container.poster} controls>
+                                            <video className="w-full h-full" width={1920} height={1080} poster={container.poster} controls>
                                                 <source src={container.video} type="video/mp4"></source>
                                             </video>
                                         ) :
                                         (
-                                            <Image height="300" width="500" src={container.poster} alt="" />
+                                            <Image className="w-full h-full" width={1920} height={1080} src={container.poster} alt="" />
                                         )
                                     }
                                 </div>

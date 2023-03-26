@@ -8,7 +8,7 @@ export default function Projects(): JSX.Element {
                 Projects
             </p>
             <h2 className="py-4">
-                Here are some of the projects i've worked on
+                Here are some of the projects I've worked on
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
                 <ProjectItem title="Akaya & Pebbles" studio="Coinflip Studios" image={"/assets/projects/akayaandpebbles/akaya.png"} />
