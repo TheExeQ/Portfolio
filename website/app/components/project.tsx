@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 interface ProjectContainerProps {
-    content: JSX.Element;
+    title: string;
     video: string;
     poster: string;
 }
@@ -9,7 +9,17 @@ interface ProjectContainerProps {
 export interface ProjectProps {
     title: string;
     studio: string;
+
+    genre: string;
+    platform: string;
+    productionTime: string;
+    teamSize: string;
+    contributions: string[];
+
+    description: string;
     poster: string;
+    trailer: string;
+
     containers: ProjectContainerProps[];
 }
 
@@ -30,46 +40,80 @@ export default function Project(props: ProjectProps): JSX.Element {
             </div>
 
             <div className="flex flex-col w-screen justify-center items-center">
-                {props.containers.map((container, index) => {
-                    return (index % 2 == 0) ? (
-                        <div key={index} className="max-w-[1240px] w-full py-10 grid md:grid-cols-5 gap-8 border-t-2 border-gray-300">
-                            <div className="p-4 md:col-span-3 text-center shadow-lg rounded-lg">
-                                {container.content}
+                <div className="max-w-[1240px] w-full py-10 grid md:grid-cols-5 gap-8 border-t-2 border-gray-300">
+                    <div className="p-4 md:col-span-3 text-center shadow-lg rounded-lg">
+                        <div className="grid grid-cols-2 gap-4 text-left max-w-[85%] mx-auto">
+                            <div>
+                                <div className="py-2">
+                                    <p className="text-lg font-bold">Genre</p>
+                                    <p>{props.genre}</p>
+                                </div>
+
+                                <div className="py-2">
+                                    <p className="text-lg font-bold">Platform</p>
+                                    <p>{props.platform}</p>
+                                </div>
+
+                                <div className="py-2">
+                                    <p className="text-lg font-bold">Production Time</p>
+                                    <p>{props.productionTime}</p>
+                                </div>
+
+                                <div className="py-2">
+                                    <p className="text-lg font-bold">Team Size</p>
+                                    <p>{props.teamSize}</p>
+                                </div>
                             </div>
-                            <div className="p-4 md:col-span-2 shadow-lg rounded-lg">
+
+                            <div>
+                                <p className="text-lg font-bold"> {props.teamSize === "Solo" ? "Features" : "My Contributions"}</p>
+                                <ul className="list-disc list-inside">
+                                    {props.contributions.map((contribution, index) => {
+                                        return (
+                                            <li key={index}>{contribution}</li>
+                                        )
+                                    })}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p-4 md:col-span-2 shadow-lg rounded-lg">
+                        <video className="w-full h-full" width={1920} height={1080} poster={props.poster} controls>
+                            <source src={props.trailer} type="video/mp4"></source>
+                        </video>
+                    </div>
+                </div>
+
+                <div className="max-w-[1240px] w-full py-10 border-t-2 border-gray-300">
+                    <div className="p-4 text-center shadow-lg rounded-lg">
+                        <h2 className="mb-4">
+                            Project Summary
+                        </h2>
+                        <p className="max-w-[80%] w-full mx-auto mb-2">
+                            {props.description}
+                        </p>
+                    </div>
+                </div>
+
+                <div className="max-w-[1240px] w-full py-10 grid md:grid-cols-4 gap-8 border-t-2 border-gray-300">
+                    {props.containers.map((container, index) => {
+                        return (
+                            <div key={index} className="p-4 w-full h-full md:col-span-2 shadow-lg rounded-lg">
                                 {container.video.trim() !== "" ?
                                     (
-                                        <video className="w-full h-full" width={1920} height={1080} poster={container.poster} controls>
-                                            <source src={container.video} type="video/mp4"></source>
+                                        <video className="h-auto" width={1920} height={1080} poster={container.poster} controls>
+                                            <source src={container.video + "#t=0.1"} type="video/mp4"></source>
                                         </video>
                                     ) :
                                     (
-                                        <Image className="w-full h-full" width={1920} height={1080} src={container.poster} alt=""/>
+                                        <Image className="h-auto" width={1920} height={1080} src={container.poster} alt="" />
                                     )
                                 }
-                            </div>
-                        </div>
-                    ) :
-                        (
-                            <div key={index} className="max-w-[1240px] w-full py-10 grid md:grid-cols-5 gap-8 border-t-2 border-gray-300">
-                                <div className="p-4 md:col-span-2 shadow-lg rounded-lg">
-                                    {container.video.trim() !== "" ?
-                                        (
-                                            <video className="w-full h-full" width={1920} height={1080} poster={container.poster} controls>
-                                                <source src={container.video} type="video/mp4"></source>
-                                            </video>
-                                        ) :
-                                        (
-                                            <Image className="w-full h-full" width={1920} height={1080} src={container.poster} alt="" />
-                                        )
-                                    }
-                                </div>
-                                <div className="p-4 md:col-span-3 text-center shadow-lg rounded-lg">
-                                    {container.content}
-                                </div>
+                                <p className="mt-2 text-2xl font-bold text-center">{container.title}</p>
                             </div>
                         )
-                })}
+                    })}
+                </div>
             </div>
         </div>
     )
