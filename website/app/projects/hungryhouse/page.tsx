@@ -14,7 +14,82 @@ const projectProp: ProjectProps = {
     trailer: "/assets/projects/hungryhouse/hungryhouse.mp4",
     poster: "/assets/projects/hungryhouse/hungryhouse.png",
 
-    team: [],
+    team: [
+        // SP
+        {
+            name: "Samuel Ryberg",
+            role: "SP",
+            website: "https://www.samuelryberg.com/"
+        },
+        {
+            name: "Ivar Jönsson",
+            role: "SP",
+            website: "https://www.ivarjonsson.com/"
+        },
+        {
+            name: "Benjamin Ek",
+            role: "SP",
+            website: "https://www.benjaminek.com/"
+        },
+        {
+            name: "Markus Hermelin",
+            role: "SP",
+            website: "https://www.markushermelin.com/"
+        },
+        {
+            name: "Jesper Andersson",
+            role: "SP",
+            website: "https://www.jesscodes.net/"
+        },
+        {
+            name: "Erik Neuman",
+            role: "SP",
+            website: ""
+        },
+        // SG
+        {
+            name: "David Bohlin",
+            role: "SG",
+            website: "https://david_bohlin.artstation.com/"
+        },
+        {
+            name: "Daniel Gryningstjerna",
+            role: "SG",
+            website: ""
+        },
+        {
+            name: "Pernilla Sonne",
+            role: "SG",
+            website: ""
+        },
+        {
+            name: "Malin Fröjd",
+            role: "SG",
+            website: ""
+        },
+        // SA
+        {
+            name: "Moa Bergman",
+            role: "SA",
+            website: "https://moabergman.portfoliobox.net/"
+        },
+        {
+            name: "Tanya Bengtsson",
+            role: "SA",
+            website: "https://www.tanyabengtsson.se/"
+        },
+        // LD
+        {
+            name: "Elias Carlsson",
+            role: "LD",
+            website: "https://www.eliascdesign.com/"
+        },
+        {
+            name: "Vanessa Grundström",
+            role: "LD",
+            website: ""
+        },
+    ],
 
     containers: [
         {

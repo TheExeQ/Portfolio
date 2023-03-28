@@ -14,7 +14,77 @@ const projectProp: ProjectProps = {
     trailer: "/assets/projects/potionrun/potionrun.mov",
     poster: "/assets/projects/potionrun/potionrun.png",
     
-    team: [],
+    team: [
+        // SP
+        {
+            name: "Samuel Ryberg",
+            role: "SP",
+            website: "https://www.samuelryberg.com/"
+        },
+        {
+            name: "Fabian Randau",
+            role: "SP",
+            website: "https://www.fabianrandau.com/"
+        },
+        {
+            name: "Alexander Rosendahl",
+            role: "SP",
+            website: ""
+        },
+        {
+            name: "August Smith",
+            role: "SP",
+            website: "https://www.augustsmith.dev/"
+        },
+        {
+            name: "Mateusz Salaga",
+            role: "SP",
+            website: "https://www.mateuszsalaga.com/"
+        },
+        // SG
+        {
+            name: "Max Kock",
+            role: "SG",
+            website: ""
+        },
+        {
+            name: "Anes Sabanovic",
+            role: "SG",
+            website: ""
+        },
+        {
+            name: "Gustav Ryde",
+            role: "SG",
+            website: ""
+        },
+        {
+            name: "Falke Persson",
+            role: "SG",
+            website: ""
+        },
+        // SA
+        {
+            name: "Mattias Ohlsson",
+            role: "SA",
+            website: ""
+        },
+        {
+            name: "Christopher Orantes Diaz",
+            role: "SA",
+            website: ""
+        },
+        // LD
+        {
+            name: "Jonathan Mårtensson",
+            role: "LD",
+            website: ""
+        },
+        {
+            name: "Tilde Persson",
+            role: "LD",
+            website: ""
+        },        
+    ],
 
     containers: [
         {
