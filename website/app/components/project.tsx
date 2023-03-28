@@ -6,6 +6,12 @@ interface ProjectContainerProps {
     poster: string;
 }
 
+interface ProjectTeamProps {
+    name: string;
+    role: string;
+    website: string;
+}
+
 export interface ProjectProps {
     title: string;
     studio: string;
@@ -20,10 +26,17 @@ export interface ProjectProps {
     poster: string;
     trailer: string;
 
+    team: ProjectTeamProps[];
+
     containers: ProjectContainerProps[];
 }
 
 export default function Project(props: ProjectProps): JSX.Element {
+
+    const order = ['SP', 'SG', 'SA', 'LD', 'TA', 'ÖG'];
+
+    props.team.sort((a, b) => order.indexOf(a.role) - order.indexOf(b.role));
+
     return (
         <div className="w-full mt-auto">
             <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -94,6 +107,43 @@ export default function Project(props: ProjectProps): JSX.Element {
                         </p>
                     </div>
                 </div>
+
+                {props.team.length > 0 ? (
+                    <div className="max-w-[1240px] w-full py-10 border-t-2 border-gray-300">
+                        <div className="p-4 text-center shadow-lg rounded-lg">
+                            <h2 className="mb-4">
+                                Team
+                            </h2>
+                            <p className="flex justify-between max-w-[80%] w-full mx-auto mb-2">
+                                {order.filter((role) => {
+                                    return props.team.some((member) => {
+                                        return member.role === role;
+                                    });
+                                }).map((role, index) => {
+                                    return (
+                                        <div key={index}>
+                                            <p className="text-lg font-bold mb-2">{role}</p>
+                                            <ul className="list-inside">
+                                                {props.team.map((member, index) => {
+                                                    return (member.role == role) ? (
+                                                        <li key={index}>
+                                                            {(member.website.length > 0) ? (
+                                                                <a href={member.website} target="_blank" className="underline text-blue-400">
+                                                                    {member.name}
+                                                                </a>
+                                                            ) : (
+                                                                <p>{member.name}</p>
+                                                            )}
+                                                        </li>
+                                                    ) : (null)
+                                                })}
+                                            </ul>
+                                        </div>
+                                    )
+                                })}
+                            </p>
+                        </div>
+                    </div>) : (null)}
 
                 <div className="max-w-[1240px] w-full py-10 grid md:grid-cols-4 gap-8 border-t-2 border-gray-300">
                     {props.containers.map((container, index) => {

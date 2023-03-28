@@ -14,6 +14,8 @@ const projectProp: ProjectProps = {
     trailer: "/assets/projects/morningofbo/bo.mp4",
     poster: "/assets/projects/morningofbo/bo.png",
 
+    team: [],
+
     containers: [
         {
             title: "Hedgehog Attack",

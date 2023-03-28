@@ -14,6 +14,8 @@ const projectProp: ProjectProps = {
     trailer: "/assets/projects/bardknight/bardknight.mp4",
     poster: "/assets/projects/bardknight/bardknight.png",
 
+    team: [],
+
     containers: [
         {
             title: "Player Animations",

@@ -14,6 +14,8 @@ const projectProp: ProjectProps = {
     trailer: "/assets/projects/cuteemup/cuteemup.mp4",
     poster: "/assets/projects/cuteemup/cuteemup.png",
     
+    team: [],
+
     containers: [
         {
             title: "Bullet Hell",

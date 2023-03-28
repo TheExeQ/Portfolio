@@ -14,6 +14,8 @@ const projectProp: ProjectProps = {
     trailer: "/assets/projects/potionrun/potionrun.mov",
     poster: "/assets/projects/potionrun/potionrun.png",
     
+    team: [],
+
     containers: [
         {
             title: "Level Transition",

@@ -14,6 +14,8 @@ const projectProp: ProjectProps = {
     trailer: "/assets/projects/spiteyellowplague/spite.mp4",
     poster: "/assets/projects/potionrun/potionrun.png",
 
+    team: [],
+
     containers: [
         {
             title: "Bo",

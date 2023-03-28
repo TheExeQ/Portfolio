@@ -14,6 +14,119 @@ const projectProp: ProjectProps = {
     trailer: "/assets/projects/spiteyellowplague/spite.mp4",
     poster: '/assets/projects/akayaandpebbles/akaya.png',
     
+    team: [
+        // SP
+        {
+            name: "Samuel Ryberg",
+            role: "SP",
+            website: "https://www.samuelryberg.com/"
+        },
+        {
+            name: "Andréas Isaksson",
+            role: "SP",
+            website: "https://www.andreasisaksson.com/"
+        },
+        {
+            name: "Ivar Jönsson",
+            role: "SP",
+            website: "https://www.ivarjonsson.com/"
+        },
+        {
+            name: "Casper Bengtsson",
+            role: "SP",
+            website: "https://www.casperbengtsson.com/"
+        },
+        {
+            name: "Max Hartell",
+            role: "SP",
+            website: "https://www.maxhartell.com/"
+        },
+        {
+            name: "Mateusz Salaga",
+            role: "SP",
+            website: "https://www.mateuszsalaga.com/"
+        },
+        // SG
+        {
+            name: "Albin Gunther",
+            role: "SG",
+            website: ""
+        },
+        {
+            name: "Emal Ghouse",
+            role: "SG",
+            website: ""
+        },
+        {
+            name: "Gustav Ryde",
+            role: "SG",
+            website: ""
+        },
+        {
+            name: "Sebastian Schaffer",
+            role: "SG",
+            website: ""
+        },
+        {
+            name: "Pernilla Sonne",
+            role: "SG",
+            website: ""
+        },
+        // SA
+        {
+            name: "Moa Bergman",
+            role: "SA",
+            website: "https://moabergman.portfoliobox.net/"
+        },
+        {
+            name: "Emily Bengtsson",
+            role: "SA",
+            website: ""
+        },
+        {
+            name: "Jacob Fransson",
+            role: "SA",
+            website: ""
+        },
+        {
+            name: "Alexander Diec",
+            role: "SA",
+            website: ""
+        },
+        // LD
+        {
+            name: "Mattias Larsson",
+            role: "LD",
+            website: ""
+        },
+        {
+            name: "Christoffer Janbris",
+            role: "LD",
+            website: ""
+        },
+        {
+            name: "Linus Lindborg-Persson",
+            role: "LD",
+            website: ""
+        },
+        {
+            name: "Vincent Karagöz",
+            role: "LD",
+            website: ""
+        },
+        // TA
+        {
+            name: "Gopal Alvarez",
+            role: "TA",
+            website: ""
+        },
+        {
+            name: "Charlin Hansson",
+            role: "TA",
+            website: ""
+        },
+    ],
+
     containers: [
         {
             title: "Control Reference",

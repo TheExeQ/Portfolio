@@ -14,6 +14,8 @@ const projectProp: ProjectProps = {
     trailer: "/assets/projects/hungryhouse/hungryhouse.mp4",
     poster: "/assets/projects/hungryhouse/hungryhouse.png",
 
+    team: [],
+
     containers: [
         {
             title: "Divide Bug",
