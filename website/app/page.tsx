@@ -15,7 +15,7 @@ export default function Home(): JSX.Element {
 
   return (
     <div className="w-full h-screen text-center md:text-left">
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
+      <div className="max-w-[1240px] w-full h-full mx-auto mt-32 md:mt-0 p-2 flex justify-center items-center">
         <div className="md:grid grid-cols-3 gap-8">
           <div className="flex justify-center py-2">
             <motion.img
@@ -44,8 +44,11 @@ export default function Home(): JSX.Element {
                 <Cursor cursorColor="#F7AB0A" />
               </h1>
               <p className="py-4 text-gray-700 max-w-[70%] m-auto md:m-0">
-                I'm a game developer from Sweden who loves to create games and learn new things.
-                On my free time I like to learn new technologies or make music.
+              I'm a game developer from Sweden who enjoys creating games. In my free time, 
+              I like to cook and make/learn music.
+              <br /><br />
+              I'm always looking to learn new things and expand my knowledge in game development. 
+              I'm fascinated by the constantly evolving technology in this field and I'm always eager to stay on top of the latest trends and techniques.
               </p>
               <div className="flex items-center justify-between my-4 max-w-[330px] py-4 mx-auto md:mx-0">
                 <a href="https://www.linkedin.com/in/samuelryberg/" target="_blank">
