@@ -44,7 +44,7 @@ const projectProp: ProjectProps = {
         {
             name: "Erik Neuman",
             role: "SP",
-            website: ""
+            website: "https://www.erikneuman.com/"
         },
         // SG
         {

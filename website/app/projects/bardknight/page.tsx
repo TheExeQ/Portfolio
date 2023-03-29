@@ -71,7 +71,7 @@ const projectProp: ProjectProps = {
         {
             name: "Jonas Berggren",
             role: "SA",
-            website: ""
+            website: "https://jonasbanimation.portfoliobox.net/"
         },
         // LD
         {
