@@ -45,12 +45,12 @@ const projectProp: ProjectProps = {
         {
             name: "Max Kock",
             role: "SG",
-            website: ""
+            website: "http://maxkock.artstation.com/"
         },
         {
             name: "Anes Sabanovic",
             role: "SG",
-            website: ""
+            website: "https://anessabanovic.artstation.com/"
         },
         {
             name: "Gustav Ryde",

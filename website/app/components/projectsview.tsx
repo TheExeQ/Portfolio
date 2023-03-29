@@ -11,7 +11,7 @@ export default function Projects(): JSX.Element {
                 Here are some of the projects I've worked on
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
-                <ProjectItem title="Akaya & Pebbles" studio="Coinflip Studios" image={"/assets/projects/akayaandpebbles/akaya.png"} />
+                <ProjectItem title="Ekaya & Pebbles" studio="Coinflip Studios" image={"/assets/projects/ekayaandpebbles/ekaya.png"} />
                 <ProjectItem title="Spite: The Yellow Plague" studio="Coinflip Studios" image={"/assets/projects/spiteyellowplague/spite.png"} />
                 <ProjectItem title="Bo's Morning" studio="Sad Centaur" image={"/assets/projects/morningofbo/bo.png"} />
                 <ProjectItem title="Bard Knight" studio="Grump Studios" image={"/assets/projects/bardknight/bardknight.png"} />
