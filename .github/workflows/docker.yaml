@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  REPO: ${{ github.repository }}
+  REPO: theexeq/portfolio
   IMAGE_NAME: portfolio-website
   TAG: ${{ github.sha }}
 
