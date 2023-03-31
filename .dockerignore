@@ -1,4 +1,9 @@
 Dockerfile
 .dockerignore
+
+.git/
+.github/
+.gitignore
+
 node_modules
 npm-debug.log
