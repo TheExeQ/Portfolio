@@ -13,10 +13,6 @@ export default function Contact(): JSX.Element {
     const [subject, setSubject] = useState<string>();
     const [message, setMessage] = useState<string>();
 
-    useEffect(() => {
-        setError("Form not setup, please send manually instead");
-    }, []);
-
     const handleSubmit = (e : React.FormEvent<HTMLFormElement>) => {
         setError("Form not setup, please send manually instead");
         e.preventDefault();
@@ -78,7 +74,14 @@ export default function Contact(): JSX.Element {
                         </div>
                     </div>
 
-                    <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+                    <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 relative">
+                        <div className="absolute bg-black/80 top-0 left-0 h-full w-full rounded-lg">
+                            <div className="flex flex-col items-center justify-center h-full">
+                                <p className="text-white text-2xl text-center font-semibold">
+                                    Form not setup, please send manually to <a href="mailto:contact@samuelryberg.com" className="text-[#F7AB0A] underline">contact@samuelryberg.com</a>
+                                </p>
+                            </div>
+                        </div>
                         <div className="p-4">
                             <form
                                 onSubmit={handleSubmit}
