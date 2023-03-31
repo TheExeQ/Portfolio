@@ -10,7 +10,7 @@ env:
   REGISTRY: ghcr.io
   REPO: theexeq/portfolio
   IMAGE_NAME: portfolio-website
-  TAG: ${{ github.sha }}
+  TAG: latest
 
 jobs:
   build-and-push:
