@@ -8,7 +8,7 @@ const projectProp: ProjectProps = {
     platform: "Windows, MacOS & Linux",
     productionTime: "5 weeks (50%)",
     teamSize: "Solo",
-    contributions: ["To", "Be", "Continued"],
+    contributions: ["Socket Builder", "Reflection", "Replication"],
 
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quaerat, expedita veritatis cum praesentium commodi, quas eaque necessitatibus deserunt natus, nobis asperiores a iure illum excepturi repudiandae nostrum! Sunt, id.",
     trailer: "/assets/projects/spiteyellowplague/spite.mp4",
