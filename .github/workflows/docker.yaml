@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  USERNAME: ${{ github.actor | lower }}
+  USERNAME: ${{ github.repository_owner }}
   REPO: ${{ github.repository }}
   IMAGE_NAME: portfolio-website
   TAG: ${{ github.sha }}
@@ -24,7 +24,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           registry: ${{ env.REGISTRY }}
-          username: ${{ github.actor }}
+          username: ${{ env.USERNAME }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get metadata
