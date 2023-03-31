@@ -8,6 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
+  USERNAME: ${{ github.actor | lower }}
   IMAGE_NAME: portfolio-website
   TAG: ${{ github.sha }}
 
@@ -29,11 +30,11 @@ jobs:
         id: metadata
         uses: docker/metadata-action@v3
         with:
-          images: ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:${{ env.TAG }}
+          images: ${{ env.REGISTRY }}/${{ env.USERNAME }}/${{ env.IMAGE_NAME }}:${{ env.TAG }}
 
       - name: Build and push image
         uses: docker/build-push-action@v2
         with:
           context: .
           push: true
-          tags: ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:${{ env.TAG }}
+          tags: ${{ env.REGISTRY }}/${{ env.USERNAME | lower }}/${{ env.IMAGE_NAME }}:${{ env.TAG }}
