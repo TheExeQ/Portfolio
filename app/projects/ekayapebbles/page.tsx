@@ -17,9 +17,14 @@ const projectProp: ProjectProps = {
     team: [
         // SP
         {
-            name: "Samuel Ryberg",
+            name: "Casper Bengtsson",
             role: "SP",
-            website: "https://www.samuelryberg.com/"
+            website: "https://www.casperbengtsson.com/"
+        },
+        {
+            name: "Max Hartell",
+            role: "SP",
+            website: "https://www.maxhartell.com/"
         },
         {
             name: "Andréas Isaksson",
@@ -32,14 +37,9 @@ const projectProp: ProjectProps = {
             website: "https://www.ivarjonsson.com/"
         },
         {
-            name: "Casper Bengtsson",
+            name: "Samuel Ryberg",
             role: "SP",
-            website: "https://www.casperbengtsson.com/"
-        },
-        {
-            name: "Max Hartell",
-            role: "SP",
-            website: "https://www.maxhartell.com/"
+            website: "https://www.samuelryberg.com/"
         },
         {
             name: "Mateusz Salaga",
@@ -48,12 +48,12 @@ const projectProp: ProjectProps = {
         },
         // SG
         {
-            name: "Albin Gunther",
+            name: "Emal Ghouse",
             role: "SG",
             website: ""
         },
         {
-            name: "Emal Ghouse",
+            name: "Albin Gunther",
             role: "SG",
             website: ""
         },
@@ -74,12 +74,17 @@ const projectProp: ProjectProps = {
         },
         // SA
         {
+            name: "Emily Bengtsson",
+            role: "SA",
+            website: ""
+        },
+        {
             name: "Moa Bergman",
             role: "SA",
             website: "https://moabergman.portfoliobox.net/"
         },
         {
-            name: "Emily Bengtsson",
+            name: "Alexander Diec",
             role: "SA",
             website: ""
         },
@@ -88,29 +93,24 @@ const projectProp: ProjectProps = {
             role: "SA",
             website: ""
         },
-        {
-            name: "Alexander Diec",
-            role: "SA",
-            website: ""
-        },
         // LD
-        {
-            name: "Mattias Larsson",
-            role: "LD",
-            website: ""
-        },
         {
             name: "Christoffer Janbris",
             role: "LD",
             website: ""
         },
         {
-            name: "Linus Lindborg-Persson",
+            name: "Vincent Karagöz",
             role: "LD",
             website: ""
         },
         {
-            name: "Vincent Karagöz",
+            name: "Mattias Larsson",
+            role: "LD",
+            website: ""
+        },
+        {
+            name: "Linus Lindborg-Persson",
             role: "LD",
             website: ""
         },

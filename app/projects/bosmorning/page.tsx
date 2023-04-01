@@ -17,11 +17,6 @@ const projectProp: ProjectProps = {
     team: [
                 // SP
                 {
-                    name: "Samuel Ryberg",
-                    role: "SP",
-                    website: "https://www.samuelryberg.com/"
-                },
-                {
                     name: "Benjamin Ek",
                     role: "SP",
                     website: "https://www.benjaminek.com/"
@@ -41,6 +36,11 @@ const projectProp: ProjectProps = {
                     role: "SP",
                     website: ""
                 },
+                {
+                    name: "Samuel Ryberg",
+                    role: "SP",
+                    website: "https://www.samuelryberg.com/"
+                },
                 // SG
                 {
                     name: "Victor Ek",
@@ -48,12 +48,12 @@ const projectProp: ProjectProps = {
                     website: ""
                 },
                 {
-                    name: "Albin Gunther",
+                    name: "Elin Ekelöw",
                     role: "SG",
                     website: ""
                 },
                 {
-                    name: "Elin Ekelöw",
+                    name: "Albin Gunther",
                     role: "SG",
                     website: ""
                 },

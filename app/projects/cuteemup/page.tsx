@@ -17,24 +17,14 @@ const projectProp: ProjectProps = {
     team: [
         // SP
         {
-            name: "Samuel Ryberg",
+            name: "Casper Bengtsson",
             role: "SP",
-            website: "https://www.samuelryberg.com/"
+            website: "https://www.casperbengtsson.com/"
         },
         {
             name: "Elin Granath",
             role: "SP",
             website: "https://www.elingranath.com/"
-        },
-        {
-            name: "Molly Tandberg",
-            role: "SP",
-            website: ""
-        },
-        {
-            name: "Casper Bengtsson",
-            role: "SP",
-            website: "https://www.casperbengtsson.com/"
         },
         {
             name: "Erik Jerpander",
@@ -46,6 +36,16 @@ const projectProp: ProjectProps = {
             role: "SP",
             website: ""
         },
+        {
+            name: "Samuel Ryberg",
+            role: "SP",
+            website: "https://www.samuelryberg.com/"
+        },
+        {
+            name: "Molly Tandberg",
+            role: "SP",
+            website: ""
+        },
         // SG
         {
             name: "Bastian Helly-Hansen",
@@ -53,12 +53,12 @@ const projectProp: ProjectProps = {
             website: ""
         },
         {
-            name: "Lowe Silverlyra",
+            name: "Gustav Ryde",
             role: "SG",
             website: ""
         },
         {
-            name: "Gustav Ryde",
+            name: "Lowe Silverlyra",
             role: "SG",
             website: ""
         },

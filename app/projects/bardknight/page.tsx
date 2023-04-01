@@ -17,9 +17,9 @@ const projectProp: ProjectProps = {
     team: [
         // SP
         {
-            name: "Samuel Ryberg",
+            name: "Casper Bengtsson",
             role: "SP",
-            website: "https://www.samuelryberg.com/"
+            website: "https://www.casperbengtsson.com/"
         },
         {
             name: "Andréas Isaksson",
@@ -32,9 +32,9 @@ const projectProp: ProjectProps = {
             website: "https://www.ivarjonsson.com/"
         },
         {
-            name: "Casper Bengtsson",
+            name: "Samuel Ryberg",
             role: "SP",
-            website: "https://www.casperbengtsson.com/"
+            website: "https://www.samuelryberg.com/"
         },
         {
             name: "Mateusz Salaga",
@@ -48,16 +48,21 @@ const projectProp: ProjectProps = {
             website: "https://david_bohlin.artstation.com/"
         },
         {
-            name: "Mirjam Hildahl",
-            role: "SG",
-            website: ""
-        },
-        {
             name: "Simon Grefbäck",
             role: "SG",
             website: ""
         },
+        {
+            name: "Mirjam Hildahl",
+            role: "SG",
+            website: ""
+        },
         // SA
+        {
+            name: "Jonas Berggren",
+            role: "SA",
+            website: "https://jonasbanimation.portfoliobox.net/"
+        },
         {
             name: "Daniel Fornell",
             role: "SA",
@@ -68,19 +73,14 @@ const projectProp: ProjectProps = {
             role: "SA",
             website: ""
         },
-        {
-            name: "Jonas Berggren",
-            role: "SA",
-            website: "https://jonasbanimation.portfoliobox.net/"
-        },
         // LD
         {
-            name: "Christoffer Janbris",
+            name: "Christoffer Carlsvärd",
             role: "LD",
             website: ""
         },
         {
-            name: "Christoffer Carlsvärd",
+            name: "Christoffer Janbris",
             role: "LD",
             website: ""
         },

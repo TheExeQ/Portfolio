@@ -17,14 +17,9 @@ const projectProp: ProjectProps = {
     team: [
         // SP
         {
-            name: "Samuel Ryberg",
+            name: "Jesper Andersson",
             role: "SP",
-            website: "https://www.samuelryberg.com/"
-        },
-        {
-            name: "Ivar Jönsson",
-            role: "SP",
-            website: "https://www.ivarjonsson.com/"
+            website: "https://www.jesscodes.net/"
         },
         {
             name: "Benjamin Ek",
@@ -37,20 +32,30 @@ const projectProp: ProjectProps = {
             website: "https://www.markushermelin.com/"
         },
         {
-            name: "Jesper Andersson",
+            name: "Ivar Jönsson",
             role: "SP",
-            website: "https://www.jesscodes.net/"
+            website: "https://www.ivarjonsson.com/"
         },
         {
             name: "Erik Neuman",
             role: "SP",
             website: "https://www.erikneuman.com/"
         },
+        {
+            name: "Samuel Ryberg",
+            role: "SP",
+            website: "https://www.samuelryberg.com/"
+        },
         // SG
         {
             name: "David Bohlin",
             role: "SG",
             website: "https://david_bohlin.artstation.com/"
+        },
+        {
+            name: "Malin Fröjd",
+            role: "SG",
+            website: ""
         },
         {
             name: "Daniel Gryningstjerna",
@@ -62,21 +67,16 @@ const projectProp: ProjectProps = {
             role: "SG",
             website: ""
         },
-        {
-            name: "Malin Fröjd",
-            role: "SG",
-            website: ""
-        },
         // SA
-        {
-            name: "Moa Bergman",
-            role: "SA",
-            website: "https://moabergman.portfoliobox.net/"
-        },
         {
             name: "Tanya Bengtsson",
             role: "SA",
             website: "https://www.tanyabengtsson.se/"
+        },
+        {
+            name: "Moa Bergman",
+            role: "SA",
+            website: "https://moabergman.portfoliobox.net/"
         },
         // LD
         {

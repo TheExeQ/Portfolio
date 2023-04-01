@@ -17,11 +17,6 @@ const projectProp: ProjectProps = {
     team: [
         // SP
         {
-            name: "Samuel Ryberg",
-            role: "SP",
-            website: "https://www.samuelryberg.com/"
-        },
-        {
             name: "Fabian Randau",
             role: "SP",
             website: "https://www.fabianrandau.com/"
@@ -32,14 +27,19 @@ const projectProp: ProjectProps = {
             website: ""
         },
         {
-            name: "August Smith",
+            name: "Samuel Ryberg",
             role: "SP",
-            website: "https://www.augustsmith.dev/"
+            website: "https://www.samuelryberg.com/"
         },
         {
             name: "Mateusz Salaga",
             role: "SP",
             website: "https://www.mateuszsalaga.com/"
+        },
+        {
+            name: "August Smith",
+            role: "SP",
+            website: "https://www.augustsmith.dev/"
         },
         // SG
         {
@@ -48,9 +48,9 @@ const projectProp: ProjectProps = {
             website: "http://maxkock.artstation.com/"
         },
         {
-            name: "Anes Sabanovic",
+            name: "Falke Persson",
             role: "SG",
-            website: "https://anessabanovic.artstation.com/"
+            website: ""
         },
         {
             name: "Gustav Ryde",
@@ -58,9 +58,9 @@ const projectProp: ProjectProps = {
             website: ""
         },
         {
-            name: "Falke Persson",
+            name: "Anes Sabanovic",
             role: "SG",
-            website: ""
+            website: "https://anessabanovic.artstation.com/"
         },
         // SA
         {
