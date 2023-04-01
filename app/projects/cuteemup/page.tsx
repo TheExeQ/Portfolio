@@ -66,12 +66,12 @@ const projectProp: ProjectProps = {
         {
             name: "Daniel Nagy",
             role: "SA",
-            website: ""
+            website: "https://danielnagy.portfoliobox.net/"
         },
         {
             name: "Christopher Orantes Diaz",
             role: "SA",
-            website: ""
+            website: "https://www.chdiaz.com/"
         },
         // LD
         {

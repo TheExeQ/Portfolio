@@ -71,7 +71,7 @@ const projectProp: ProjectProps = {
         {
             name: "Christopher Orantes Diaz",
             role: "SA",
-            website: ""
+            website: "https://www.chdiaz.com/"
         },
         // LD
         {
