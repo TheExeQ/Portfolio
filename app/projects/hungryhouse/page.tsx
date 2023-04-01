@@ -8,9 +8,9 @@ const projectProp: ProjectProps = {
     platform: "Mobile",
     productionTime: "6 weeks (50%)",
     teamSize: "13",
-    contributions: ["To", "Be", "Continued"],
+    contributions: ["Main Menu", "Progress Saving/Loading", "Creature Animations"],
 
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quaerat, expedita veritatis cum praesentium commodi, quas eaque necessitatibus deserunt natus, nobis asperiores a iure illum excepturi repudiandae nostrum! Sunt, id.",
+    description: "During my second project I worked on a mobile puzzle game called Hungry House. The game's objective was to move a group of frogs between platforms, in order to feed a hungry living house creature. What made the game challenging was that the creature couldn't be overfed or underfed, so players had to think strategically about how to move the frogs in order to get the right amount of food to the creature. As the game progressed, it became even more challenging as obstacles were introduced. These obstacles required players to carefully consider the movements of the frogs, in order to successfully navigate the level and keep the creature happy.",
     trailer: "/assets/projects/hungryhouse/hungryhouse.mp4",
     poster: "/assets/projects/hungryhouse/hungryhouse.png",
 

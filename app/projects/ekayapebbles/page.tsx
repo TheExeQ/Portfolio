@@ -1,16 +1,16 @@
 import Project, { ProjectProps } from '../../components/project'
 
 const projectProp: ProjectProps = {
-    title: 'Ekaya & Pebbles',
+    title: 'Ekaya & Pebbles: A Helping Hand',
     studio: 'Coinflip Studios',
 
     genre: "Third Person",
     platform: "Windows",
     productionTime: "14 weeks (50%)",
     teamSize: "21",
-    contributions: ["To", "Be", "Continued"],
+    contributions: ["Player", "C# Scripting", "Arena System"],
 
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quaerat, expedita veritatis cum praesentium commodi, quas eaque necessitatibus deserunt natus, nobis asperiores a iure illum excepturi repudiandae nostrum! Sunt, id.",
+    description: "My seventh project at The Game Assembly was another game built on the same engine \"Volt\" we created in our previous project. Since we already had most of the functionality required to create games, we were able to get started a lot faster this time around. We also had the advantage of being able to improve on our previous mistakes, which made the development process much smoother. The game we created this time was a third-person adventure game called \"Ekaya & Pebbles: A Helping Hand\". In this game, players take on the role of a female character named Ekaya, who sets out on a journey to restart the heart of an ancient colossus. Along the way, she is accompanied by a little companion named Pebbles, who has telekinetic powers that can help her on her journey.",
     trailer: "/assets/projects/spiteyellowplague/spite.mp4",
     poster: '/assets/projects/ekayaandpebbles/ekaya.png',
     

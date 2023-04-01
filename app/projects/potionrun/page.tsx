@@ -8,9 +8,9 @@ const projectProp: ProjectProps = {
     platform: "Windows",
     productionTime: "6 weeks (50%)",
     teamSize: "13",
-    contributions: ["To", "Be", "Continued"],
+    contributions: ["Stumble obstacles", "Chasing Monster", "Checkpoints", "Level Transitions"],
 
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quaerat, expedita veritatis cum praesentium commodi, quas eaque necessitatibus deserunt natus, nobis asperiores a iure illum excepturi repudiandae nostrum! Sunt, id.",
+    description: "Potion Run was the first game project that i developed during my time at The Game Assembly, it is a runner game in which a gnome character is tasked with delivering a potion to a village before it becomes corrupted by an evil monster. The game involves avoiding obstacles along the way in order to preserve as much of the potion as possible before arriving at the destination. As a runner game, the focus is on keeping the gnome character moving forward while navigating the obstacles that appear in his path.",
     trailer: "/assets/projects/potionrun/potionrun.mov",
     poster: "/assets/projects/potionrun/potionrun.png",
     

@@ -8,9 +8,9 @@ const projectProp: ProjectProps = {
     platform: "Windows",
     productionTime: "8 weeks (50%)",
     teamSize: "13",
-    contributions: ["To", "Be", "Continued"],
+    contributions: ["Rabbit Enemy", "Bird Enemy", "Frog Enemy"],
 
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quaerat, expedita veritatis cum praesentium commodi, quas eaque necessitatibus deserunt natus, nobis asperiores a iure illum excepturi repudiandae nostrum! Sunt, id.",
+    description: "My fifth project at The Game Assembly was an adventure top-down game called \"Bo's Morning.\" The game revolved around a farmer named Bo, who had to save his farm from a plague that had caused all animals and plants in the area to become evil. In order to save his farm, Bo had to eliminate the infectious flower that was causing the plague. The game design involved a lot of creativity, as we had to think about how to create an immersive world for the player to explore",
     trailer: "/assets/projects/morningofbo/bo.mp4",
     poster: "/assets/projects/morningofbo/bo.png",
 
