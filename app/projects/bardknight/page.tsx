@@ -8,9 +8,9 @@ const projectProp: ProjectProps = {
     platform: "Windows",
     productionTime: "8 weeks (50%)",
     teamSize: "15",
-    contributions: ["To", "Be", "Continued"],
+    contributions: ["Player", "Moving Platforms"],
 
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quaerat, expedita veritatis cum praesentium commodi, quas eaque necessitatibus deserunt natus, nobis asperiores a iure illum excepturi repudiandae nostrum! Sunt, id.",
+    description: "My fourth project at The Game Assembly was a 2.5D platformer that was unlike anything I had worked on before. The game was called \"Bard Knight\" and it was about a knight who had to collect musical instruments and traverse through levels to complete his songs. What made this project unique was that we got the chance to collaborate with students from a music school called Östra Grevie. This collaboration allowed us to incorporate music into the gameplay in a way that was both fun and educational.",
     trailer: "/assets/projects/bardknight/bardknight.mp4",
     poster: "/assets/projects/bardknight/bardknight.png",
 
