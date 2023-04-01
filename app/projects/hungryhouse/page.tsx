@@ -10,7 +10,16 @@ const projectProp: ProjectProps = {
     teamSize: "13",
     contributions: ["Main Menu", "Progress Saving/Loading", "Creature Animations"],
 
-    description: "During my second project I worked on a mobile puzzle game called Hungry House. The game's objective was to move a group of frogs between platforms, in order to feed a hungry living house creature. What made the game challenging was that the creature couldn't be overfed or underfed, so players had to think strategically about how to move the frogs in order to get the right amount of food to the creature. As the game progressed, it became even more challenging as obstacles were introduced. These obstacles required players to carefully consider the movements of the frogs, in order to successfully navigate the level and keep the creature happy.",
+    description:
+        (
+            <div>
+                During my second project I worked on a mobile puzzle game called Hungry House.
+                The game's objective was to move a group of frogs between platforms, in order to feed a hungry living house creature. <br /><br />
+                What made the game challenging was that the creature couldn't be overfed or underfed, so players had to think strategically about how to move the frogs in order to get the right amount of food to the creature. <br /><br />
+                As the game progressed, it became even more challenging as obstacles were introduced.
+                These obstacles required players to carefully consider the movements of the frogs, in order to successfully navigate the level and keep the creature happy.
+            </div>
+        ),
     trailer: "/assets/projects/hungryhouse/hungryhouse.mp4",
     poster: "/assets/projects/hungryhouse/hungryhouse.png",
 

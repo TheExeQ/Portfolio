@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { JsxElement } from 'typescript';
 
 interface ProjectContainerProps {
     title: string;
@@ -22,7 +23,7 @@ export interface ProjectProps {
     teamSize: string;
     contributions: string[];
 
-    description: string;
+    description: JSX.Element;
     poster: string;
     trailer: string;
 

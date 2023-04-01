@@ -10,7 +10,17 @@ const projectProp: ProjectProps = {
     teamSize: "23",
     contributions: ["Parts of Engine/Editor", "Math Library", "Navigation Mesh"],
 
-    description: "My sixth project at The Game Assembly was a dungeon crawler called \"Spite: The Yellow Plague\". The game was about a witch hunter who had been recruited by a village to end the yellow plague that was spreading in the swamp next to the village. On his quest to protect the village, the hunter meets a creature that lives in the swamp, which offers to help him by giving him abilities in return for parts of his soul. What made this project special was that it was the first time we built our own game engine from scratch. The engine was named \"Volt\" and creating it was a challenging task, but also very fun and exciting. We had to think about every aspect of game development, from the physics engine to the rendering pipeline.",
+    description:
+        (
+            <div>
+                My sixth project at The Game Assembly was a dungeon crawler called "Spite: The Yellow Plague". <br /><br />
+                The game was about a witch hunter who had been recruited by a village to end the yellow plague that was spreading in the swamp next to the village.
+                On his quest to protect the village, the hunter meets a creature that lives in the swamp, which offers to help him by giving him abilities in return for parts of his soul. <br /><br />
+                What made this project special was that it was the first time we built our own game engine from scratch.
+                The engine was named "Volt" and creating it was a challenging task, but also very fun and exciting.
+                We had to think about every aspect of game development, from the physics engine to the rendering pipeline.
+            </div>
+        ),
     trailer: "/assets/projects/spiteyellowplague/spite.mp4",
     poster: "/assets/projects/spiteyellowplague/spite.png",
 

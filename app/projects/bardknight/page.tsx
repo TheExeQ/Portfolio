@@ -10,7 +10,15 @@ const projectProp: ProjectProps = {
     teamSize: "15",
     contributions: ["Player", "Moving Platforms"],
 
-    description: "My fourth project at The Game Assembly was a 2.5D platformer that was unlike anything I had worked on before. The game was called \"Bard Knight\" and it was about a knight who had to collect musical instruments and traverse through levels to complete his songs. What made this project unique was that we got the chance to collaborate with students from a music school called Östra Grevie. This collaboration allowed us to incorporate music into the gameplay in a way that was both fun and educational.",
+    description:
+        (
+            <div>
+                My fourth project at The Game Assembly was a 2.5D platformer that was unlike anything I had worked on before.
+                The game was called "Bard Knight" and it was about a knight who had to collect musical instruments and traverse through levels to complete his songs. <br /><br />
+                What made this project unique was that we got the chance to collaborate with students from a music school called Östra Grevie.
+                This collaboration allowed us to incorporate music into the gameplay in a way that was both fun and educational.
+            </div>
+        ),
     trailer: "/assets/projects/bardknight/bardknight.mp4",
     poster: "/assets/projects/bardknight/bardknight.png",
 

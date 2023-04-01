@@ -10,7 +10,14 @@ const projectProp: ProjectProps = {
     teamSize: "Solo",
     contributions: ["API Abstraction", "Cross Platform Support", "UDP Sockets", "Variable Replication"],
 
-    description: "For my solo specialization project, I decided to tackle the challenge of creating a networking system for my own game engine. I wanted to create a system that would be cross-platform, with an abstraction layer that would allow support for multiple different networking APIs. Additionally, I took a lot of inspiration from Unreal's replication system and wanted to create a simplified version of this for my own engine.",
+    description:
+        (
+            <div>
+                For my solo specialization project, I decided to tackle the challenge of creating a networking system for my own game engine.
+                I wanted to create a system that would be cross-platform, with an abstraction layer that would allow support for multiple different networking APIs.<br /><br />
+                Additionally, I took a lot of inspiration from Unreal's replication system and wanted to create a simplified version of this for my own engine.
+            </div>
+        ),
     trailer: "/assets/projects/spiteyellowplague/spite.mp4",
     poster: "/assets/projects/potionrun/potionrun.png",
 

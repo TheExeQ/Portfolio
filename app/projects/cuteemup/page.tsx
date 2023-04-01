@@ -10,7 +10,15 @@ const projectProp: ProjectProps = {
     teamSize: "13",
     contributions: ["Parts of Player", "Bullet Manager", "Final Boss"],
 
-    description: "My third project at The Game Assembly was both exciting and challenging. It was the first game I developed using the school's in-house game engine, which made the project more difficult than my previous ones. The game was called Cute Em Up, and it was a Shoot Em Up game where players had to progress through levels while shooting robots engineered by an evil scientist. One of the biggest challenges with the Cute Em Up project was that it was the first game we developed in C++. This meant that we had to worry about memory management and other complexities that we didn't have to think about in our previous projects, which were developed using C#.",
+    description:
+        (
+            <div>
+                My third project at The Game Assembly was both exciting and challenging.
+                It was the first game I developed using the school's in-house game engine, which made the project more difficult than my previous ones. <br /><br />
+                The game was called Cute Em Up, and it was a Shoot Em Up game where players had to progress through levels while shooting robots engineered by an evil scientist. <br /><br />
+                One of the biggest challenges with the Cute Em Up project was that it was the first game we developed in C++. This meant that we had to worry about memory management and other complexities that we didn't have to think about in our previous projects, which were developed using C#.
+            </div>
+        ),
     trailer: "/assets/projects/cuteemup/cuteemup.mp4",
     poster: "/assets/projects/cuteemup/cuteemup.png",
 
