@@ -8,7 +8,7 @@ const projectProp: ProjectProps = {
     platform: "Windows",
     productionTime: "14 weeks (50%)",
     teamSize: "21",
-    contributions: ["Player", "C# Scripting", "Arena System"],
+    contributions: ["Player", "Mono Runtime (C# Scripting)", "Arena System"],
 
     description:
         (
@@ -139,20 +139,20 @@ const projectProp: ProjectProps = {
 
     containers: [
         {
-            title: "Control Reference",
-            video: "/assets/projects/ekayaandpebbles/ekayacontrolreference.mp4",
+            title: "Telekinesis Ability",
+            video: "/assets/projects/ekayaandpebbles/1.mp4",
             poster: ""
         },
         {
-            title: "Mono C# Integration",
-            video: "/assets/projects/ekayaandpebbles/monostrings.mp4",
+            title: "Player Movement",
+            video: "/assets/projects/ekayaandpebbles/2.mp4",
             poster: ""
         },
         {
-            title: "Telekinesis Prototype",
-            video: "/assets/projects/ekayaandpebbles/telekinesisprototype.mp4",
+            title: "C# Scripting",
+            video: "/assets/projects/ekayaandpebbles/3.mp4",
             poster: ""
-        }
+        },
     ]
 }
 

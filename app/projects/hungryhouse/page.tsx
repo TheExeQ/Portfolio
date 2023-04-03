@@ -101,29 +101,24 @@ const projectProp: ProjectProps = {
         {
             name: "Vanessa Grundström",
             role: "LD",
-            website: ""
+            website: "https://www.grundstromdesign.com/"
         },
     ],
 
     containers: [
         {
-            title: "Divide Bug",
-            video: "/assets/projects/hungryhouse/dividebug.mp4",
+            title: "Creature animations",
+            video: "/assets/projects/hungryhouse/1.mp4",
             poster: ""
         },
         {
-            title: "Cutscene",
-            video: "/assets/projects/hungryhouse/cutscene.mp4",
+            title: "Main Menu",
+            video: "/assets/projects/hungryhouse/2.mp4",
             poster: ""
         },
         {
-            title: "House Animation Bug",
-            video: "/assets/projects/hungryhouse/houseanimbug.mp4",
-            poster: ""
-        },
-        {
-            title: "Predator Animation",
-            video: "/assets/projects/hungryhouse/predatoranim.mp4",
+            title: "Level Select",
+            video: "/assets/projects/hungryhouse/3.mp4",
             poster: ""
         }
     ]

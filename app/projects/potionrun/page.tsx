@@ -95,23 +95,13 @@ const projectProp: ProjectProps = {
 
     containers: [
         {
-            title: "Level Transition",
-            video: "/assets/projects/potionrun/leveltransition.mp4",
+            title: "Stumble Obstacles & Monster",
+            video: "/assets/projects/potionrun/1.mp4",
             poster: ""
         },
         {
-            title: "Monster Showcase",
-            video: "/assets/projects/potionrun/monstershowcase.mp4",
-            poster: ""
-        },
-        {
-            title: "Block Generator",
-            video: "/assets/projects/potionrun/blockgenerator.mp4",
-            poster: ""
-        },
-        {
-            title: "Checkpoints Alpha",
-            video: "/assets/projects/potionrun/checkpointsalpha.mp4",
+            title: "Level Transitions",
+            video: "/assets/projects/potionrun/2.mp4",
             poster: ""
         }
     ]

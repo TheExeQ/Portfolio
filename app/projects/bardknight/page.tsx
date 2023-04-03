@@ -107,13 +107,13 @@ const projectProp: ProjectProps = {
 
     containers: [
         {
-            title: "Player Animations",
+            title: "Player Movement",
             video: "",
-            poster: "/assets/projects/bardknight/walkfallanimation.gif"
+            poster: "/assets/projects/bardknight/1.mp4"
         },
         {
-            title: "Physics Based Movement",
-            video: "/assets/projects/bardknight/playerphysxmovement.mp4",
+            title: "Moving Platforms",
+            video: "/assets/projects/bardknight/2.mp4",
             poster: ""
         }
     ]

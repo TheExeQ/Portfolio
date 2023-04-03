@@ -8,7 +8,7 @@ const projectProp: ProjectProps = {
     platform: "Windows",
     productionTime: "8 weeks (50%)",
     teamSize: "13",
-    contributions: ["Rabbit Enemy", "Bird Enemy", "Frog Enemy"],
+    contributions: ["Rabbit Enemy", "Hedgehog Enemy", "Bird Enemy", "Frog Enemy"],
 
     description:
         (
@@ -96,14 +96,24 @@ const projectProp: ProjectProps = {
 
     containers: [
         {
-            title: "Hedgehog Attack",
-            video: "/assets/projects/morningofbo/hedgehogattack.mp4",
+            title: "Rabbit",
+            video: "/assets/projects/morningofbo/1.mp4",
             poster: ""
         },
         {
-            title: "Frog Attack",
+            title: "Hedgehog",
             video: "",
-            poster: "/assets/projects/morningofbo/frogattacking.gif"
+            poster: "/assets/projects/morningofbo/2.mp4"
+        },
+        {
+            title: "Bird",
+            video: "",
+            poster: "/assets/projects/morningofbo/3.mp4"
+        },
+        {
+            title: "Frog",
+            video: "",
+            poster: "/assets/projects/morningofbo/3.mp4"
         }
     ]
 }

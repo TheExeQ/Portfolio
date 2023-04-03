@@ -8,7 +8,7 @@ const projectProp: ProjectProps = {
     platform: "Windows, MacOS & Linux",
     productionTime: "5 weeks (50%)",
     teamSize: "Solo",
-    contributions: ["API Abstraction", "Cross Platform Support", "UDP Sockets", "Variable Replication"],
+    contributions: ["UDP Sockets", "Cross Platform", "API Abstraction", "Variable Replication", "Dedicated Server Support"],
 
     description:
         (
@@ -25,12 +25,12 @@ const projectProp: ProjectProps = {
 
     containers: [
         {
-            title: "Bo",
+            title: "Placeholder",
             video: "/assets/projects/morningofbo/bo.mp4",
             poster: "/assets/projects/morningofbo/bo.png"
         },
         {
-            title: "Bard Knight",
+            title: "Placeholder",
             video: "/assets/projects/bardknight/bardknight.mp4",
             poster: "/assets/projects/bardknight/bardknight.png"
         }

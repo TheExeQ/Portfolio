@@ -149,23 +149,18 @@ const projectProp: ProjectProps = {
 
     containers: [
         {
-            title: "Navmesh Tool",
-            video: "/assets/projects/spiteyellowplague/finalnavmeshtool.mp4",
+            title: "Player Navigation",
+            video: "/assets/projects/spiteyellowplague/1.mp4",
             poster: ""
         },
         {
-            title: "Navmesh In Game",
-            video: "/assets/projects/spiteyellowplague/navmeshingame.mp4",
+            title: "Enemy Navigation",
+            video: "/assets/projects/spiteyellowplague/2.mp4",
             poster: ""
         },
         {
-            title: "Navmesh Ai",
-            video: "/assets/projects/spiteyellowplague/navmeshai.mp4",
-            poster: ""
-        },
-        {
-            title: "NavMesh Generation",
-            video: "/assets/projects/spiteyellowplague/navmeshgeneration.mp4",
+            title: "NavMesh Tool",
+            video: "/assets/projects/spiteyellowplague/3.mp4",
             poster: ""
         }
     ]
