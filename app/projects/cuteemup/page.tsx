@@ -102,18 +102,18 @@ const projectProp: ProjectProps = {
     containers: [
         {
             title: "Boss (Phase One)",
-            video: "",
-            poster: "/assets/projects/cuteemup/1.mp4"
+            video: "/assets/projects/cuteemup/1.mp4",
+            poster: ""
         },
         {
             title: "Shink Ability & Boss (Phase Two)",
-            video: "",
-            poster: "/assets/projects/cuteemup/2.mp4"
+            video: "/assets/projects/cuteemup/2.mp4",
+            poster: ""
         },
         {
             title: "Bullet Hell",
-            video: "",
-            poster: "/assets/projects/cuteemup/3.mp4"
+            video: "/assets/projects/cuteemup/3.mp4",
+            poster: ""
         }
     ]
 }

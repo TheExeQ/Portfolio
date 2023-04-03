@@ -102,18 +102,18 @@ const projectProp: ProjectProps = {
         },
         {
             title: "Hedgehog",
-            video: "",
-            poster: "/assets/projects/morningofbo/2.mp4"
+            video: "/assets/projects/morningofbo/2.mp4",
+            poster: ""
         },
         {
             title: "Bird",
-            video: "",
-            poster: "/assets/projects/morningofbo/3.mp4"
+            video: "/assets/projects/morningofbo/3.mp4",
+            poster: ""
         },
         {
             title: "Frog",
-            video: "",
-            poster: "/assets/projects/morningofbo/3.mp4"
+            video: "/assets/projects/morningofbo/3.mp4",
+            poster: ""
         }
     ]
 }
