@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { JsxElement } from 'typescript';
 
 interface ProjectContainerProps {
     title: string;
@@ -22,7 +23,7 @@ export interface ProjectProps {
     teamSize: string;
     contributions: string[];
 
-    description: string;
+    description: JSX.Element;
     poster: string;
     trailer: string;
 
@@ -114,19 +115,19 @@ export default function Project(props: ProjectProps): JSX.Element {
                             <h2 className="mb-4">
                                 Team
                             </h2>
-                            <p className="flex justify-between max-w-[80%] w-full mx-auto mb-2">
+                            <p className="flex flex-wrap justify-center md:justify-between max-w-[80%] w-full mx-auto mb-2">
                                 {order.filter((role) => {
                                     return props.team.some((member) => {
                                         return member.role === role;
                                     });
                                 }).map((role, index) => {
                                     return (
-                                        <div key={index}>
+                                        <div key={index} className="p-4">
                                             <p className="text-lg font-bold mb-2">{role}</p>
                                             <ul className="list-inside">
                                                 {props.team.map((member, index) => {
                                                     return (member.role == role) ? (
-                                                        <li key={index}>
+                                                        <li key={index} className="pt-2">
                                                             {(member.website.length > 0) ? (
                                                                 <a href={member.website} target="_blank" className="underline text-blue-400">
                                                                     {member.name}

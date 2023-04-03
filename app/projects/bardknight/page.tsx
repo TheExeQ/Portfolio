@@ -10,16 +10,24 @@ const projectProp: ProjectProps = {
     teamSize: "15",
     contributions: ["Player", "Moving Platforms"],
 
-    description: "My fourth project at The Game Assembly was a 2.5D platformer that was unlike anything I had worked on before. The game was called \"Bard Knight\" and it was about a knight who had to collect musical instruments and traverse through levels to complete his songs. What made this project unique was that we got the chance to collaborate with students from a music school called Östra Grevie. This collaboration allowed us to incorporate music into the gameplay in a way that was both fun and educational.",
+    description:
+        (
+            <div>
+                My fourth project at The Game Assembly was a 2.5D platformer that was unlike anything I had worked on before.
+                The game was called "Bard Knight" and it was about a knight who had to collect musical instruments and traverse through levels to complete his songs. <br /><br />
+                What made this project unique was that we got the chance to collaborate with students from a music school called Östra Grevie.
+                This collaboration allowed us to incorporate music into the gameplay in a way that was both fun and educational.
+            </div>
+        ),
     trailer: "/assets/projects/bardknight/bardknight.mp4",
     poster: "/assets/projects/bardknight/bardknight.png",
 
     team: [
         // SP
         {
-            name: "Samuel Ryberg",
+            name: "Casper Bengtsson",
             role: "SP",
-            website: "https://www.samuelryberg.com/"
+            website: "https://www.casperbengtsson.com/"
         },
         {
             name: "Andréas Isaksson",
@@ -32,9 +40,9 @@ const projectProp: ProjectProps = {
             website: "https://www.ivarjonsson.com/"
         },
         {
-            name: "Casper Bengtsson",
+            name: "Samuel Ryberg",
             role: "SP",
-            website: "https://www.casperbengtsson.com/"
+            website: "https://www.samuelryberg.com/"
         },
         {
             name: "Mateusz Salaga",
@@ -48,16 +56,21 @@ const projectProp: ProjectProps = {
             website: "https://david_bohlin.artstation.com/"
         },
         {
-            name: "Mirjam Hildahl",
-            role: "SG",
-            website: ""
-        },
-        {
             name: "Simon Grefbäck",
             role: "SG",
             website: ""
         },
+        {
+            name: "Mirjam Hildahl",
+            role: "SG",
+            website: ""
+        },
         // SA
+        {
+            name: "Jonas Berggren",
+            role: "SA",
+            website: "https://jonasbanimation.portfoliobox.net/"
+        },
         {
             name: "Daniel Fornell",
             role: "SA",
@@ -68,19 +81,14 @@ const projectProp: ProjectProps = {
             role: "SA",
             website: ""
         },
-        {
-            name: "Jonas Berggren",
-            role: "SA",
-            website: "https://jonasbanimation.portfoliobox.net/"
-        },
         // LD
         {
-            name: "Christoffer Janbris",
+            name: "Christoffer Carlsvärd",
             role: "LD",
             website: ""
         },
         {
-            name: "Christoffer Carlsvärd",
+            name: "Christoffer Janbris",
             role: "LD",
             website: ""
         },
@@ -99,13 +107,13 @@ const projectProp: ProjectProps = {
 
     containers: [
         {
-            title: "Player Animations",
+            title: "Player Movement",
             video: "",
-            poster: "/assets/projects/bardknight/walkfallanimation.gif"
+            poster: "/assets/projects/bardknight/1.mp4"
         },
         {
-            title: "Physics Based Movement",
-            video: "/assets/projects/bardknight/playerphysxmovement.mp4",
+            title: "Moving Platforms",
+            video: "/assets/projects/bardknight/2.mp4",
             poster: ""
         }
     ]

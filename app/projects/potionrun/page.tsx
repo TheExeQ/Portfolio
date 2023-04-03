@@ -10,17 +10,19 @@ const projectProp: ProjectProps = {
     teamSize: "13",
     contributions: ["Stumble obstacles", "Chasing Monster", "Checkpoints", "Level Transitions"],
 
-    description: "Potion Run was the first game project that i developed during my time at The Game Assembly, it is a runner game in which a gnome character is tasked with delivering a potion to a village before it becomes corrupted by an evil monster. The game involves avoiding obstacles along the way in order to preserve as much of the potion as possible before arriving at the destination. As a runner game, the focus is on keeping the gnome character moving forward while navigating the obstacles that appear in his path.",
+    description:
+        (
+            <div>
+                Potion Run was the first game project that i developed during my time at The Game Assembly, it is a runner game in which a gnome character is tasked with delivering a potion to a village before it becomes corrupted by an evil monster. <br /><br />
+                The game involves avoiding obstacles along the way in order to preserve as much of the potion as possible before arriving at the destination.
+                As a runner game, the focus is on keeping the gnome character moving forward while navigating the obstacles that appear in his path.
+            </div>
+        ),
     trailer: "/assets/projects/potionrun/potionrun.mov",
     poster: "/assets/projects/potionrun/potionrun.png",
-    
+
     team: [
         // SP
-        {
-            name: "Samuel Ryberg",
-            role: "SP",
-            website: "https://www.samuelryberg.com/"
-        },
         {
             name: "Fabian Randau",
             role: "SP",
@@ -32,14 +34,19 @@ const projectProp: ProjectProps = {
             website: ""
         },
         {
-            name: "August Smith",
+            name: "Samuel Ryberg",
             role: "SP",
-            website: "https://www.augustsmith.dev/"
+            website: "https://www.samuelryberg.com/"
         },
         {
             name: "Mateusz Salaga",
             role: "SP",
             website: "https://www.mateuszsalaga.com/"
+        },
+        {
+            name: "August Smith",
+            role: "SP",
+            website: "https://www.augustsmith.dev/"
         },
         // SG
         {
@@ -48,9 +55,9 @@ const projectProp: ProjectProps = {
             website: "http://maxkock.artstation.com/"
         },
         {
-            name: "Anes Sabanovic",
+            name: "Falke Persson",
             role: "SG",
-            website: "https://anessabanovic.artstation.com/"
+            website: ""
         },
         {
             name: "Gustav Ryde",
@@ -58,9 +65,9 @@ const projectProp: ProjectProps = {
             website: ""
         },
         {
-            name: "Falke Persson",
+            name: "Anes Sabanovic",
             role: "SG",
-            website: ""
+            website: "https://anessabanovic.artstation.com/"
         },
         // SA
         {
@@ -71,7 +78,7 @@ const projectProp: ProjectProps = {
         {
             name: "Christopher Orantes Diaz",
             role: "SA",
-            website: ""
+            website: "https://www.chdiaz.com/"
         },
         // LD
         {
@@ -83,28 +90,18 @@ const projectProp: ProjectProps = {
             name: "Tilde Persson",
             role: "LD",
             website: ""
-        },        
+        },
     ],
 
     containers: [
         {
-            title: "Level Transition",
-            video: "/assets/projects/potionrun/leveltransition.mp4",
+            title: "Stumble Obstacles & Monster",
+            video: "/assets/projects/potionrun/1.mp4",
             poster: ""
         },
         {
-            title: "Monster Showcase",
-            video: "/assets/projects/potionrun/monstershowcase.mp4",
-            poster: ""
-        },
-        {
-            title: "Block Generator",
-            video: "/assets/projects/potionrun/blockgenerator.mp4",
-            poster: ""
-        },
-        {
-            title: "Checkpoints Alpha",
-            video: "/assets/projects/potionrun/checkpointsalpha.mp4",
+            title: "Level Transitions",
+            video: "/assets/projects/potionrun/2.mp4",
             poster: ""
         }
     ]

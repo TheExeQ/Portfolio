@@ -10,16 +10,31 @@ const projectProp: ProjectProps = {
     teamSize: "23",
     contributions: ["Parts of Engine/Editor", "Math Library", "Navigation Mesh"],
 
-    description: "My sixth project at The Game Assembly was a dungeon crawler called \"Spite: The Yellow Plague\". The game was about a witch hunter who had been recruited by a village to end the yellow plague that was spreading in the swamp next to the village. On his quest to protect the village, the hunter meets a creature that lives in the swamp, which offers to help him by giving him abilities in return for parts of his soul. What made this project special was that it was the first time we built our own game engine from scratch. The engine was named \"Volt\" and creating it was a challenging task, but also very fun and exciting. We had to think about every aspect of game development, from the physics engine to the rendering pipeline.",
+    description:
+        (
+            <div>
+                My sixth project at The Game Assembly was a dungeon crawler called "Spite: The Yellow Plague". <br /><br />
+                The game was about a witch hunter who had been recruited by a village to end the yellow plague that was spreading in the swamp next to the village.
+                On his quest to protect the village, the hunter meets a creature that lives in the swamp, which offers to help him by giving him abilities in return for parts of his soul. <br /><br />
+                What made this project special was that it was the first time we built our own game engine from scratch.
+                The engine was named "Volt" and creating it was a challenging task, but also very fun and exciting.
+                We had to think about every aspect of game development, from the physics engine to the rendering pipeline.
+            </div>
+        ),
     trailer: "/assets/projects/spiteyellowplague/spite.mp4",
     poster: "/assets/projects/spiteyellowplague/spite.png",
 
     team: [
         // SP
         {
-            name: "Samuel Ryberg",
+            name: "Casper Bengtsson",
             role: "SP",
-            website: "https://www.samuelryberg.com/"
+            website: "https://www.casperbengtsson.com/"
+        },
+        {
+            name: "Max Hartell",
+            role: "SP",
+            website: "https://www.maxhartell.com/"
         },
         {
             name: "Andréas Isaksson",
@@ -32,33 +47,28 @@ const projectProp: ProjectProps = {
             website: "https://www.ivarjonsson.com/"
         },
         {
-            name: "Casper Bengtsson",
+            name: "Stefan Pihlström",
             role: "SP",
-            website: "https://www.casperbengtsson.com/"
+            website: ""
         },
         {
-            name: "Max Hartell",
+            name: "Samuel Ryberg",
             role: "SP",
-            website: "https://www.maxhartell.com/"
+            website: "https://www.samuelryberg.com/"
         },
         {
             name: "Mateusz Salaga",
             role: "SP",
             website: "https://www.mateuszsalaga.com/"
         },
-        {
-            name: "Stefan Pihlström",
-            role: "SP",
-            website: ""
-        },
         // SG
         {
-            name: "Albin Gunther",
+            name: "Emal Ghouse",
             role: "SG",
             website: ""
         },
         {
-            name: "Emal Ghouse",
+            name: "Albin Gunther",
             role: "SG",
             website: ""
         },
@@ -79,12 +89,17 @@ const projectProp: ProjectProps = {
         },
         // SA
         {
+            name: "Emily Bengtsson",
+            role: "SA",
+            website: ""
+        },
+        {
             name: "Moa Bergman",
             role: "SA",
             website: "https://moabergman.portfoliobox.net/"
         },
         {
-            name: "Emily Bengtsson",
+            name: "Alexander Diec",
             role: "SA",
             website: ""
         },
@@ -93,29 +108,24 @@ const projectProp: ProjectProps = {
             role: "SA",
             website: ""
         },
-        {
-            name: "Alexander Diec",
-            role: "SA",
-            website: ""
-        },
         // LD
-        {
-            name: "Mattias Larsson",
-            role: "LD",
-            website: ""
-        },
         {
             name: "Christoffer Janbris",
             role: "LD",
             website: ""
         },
         {
-            name: "Linus Lindborg-Persson",
+            name: "Vincent Karagöz",
             role: "LD",
             website: ""
         },
         {
-            name: "Vincent Karagöz",
+            name: "Mattias Larsson",
+            role: "LD",
+            website: ""
+        },
+        {
+            name: "Linus Lindborg-Persson",
             role: "LD",
             website: ""
         },
@@ -139,23 +149,18 @@ const projectProp: ProjectProps = {
 
     containers: [
         {
-            title: "Navmesh Tool",
-            video: "/assets/projects/spiteyellowplague/finalnavmeshtool.mp4",
+            title: "Player Navigation",
+            video: "/assets/projects/spiteyellowplague/1.mp4",
             poster: ""
         },
         {
-            title: "Navmesh In Game",
-            video: "/assets/projects/spiteyellowplague/navmeshingame.mp4",
+            title: "Enemy Navigation",
+            video: "/assets/projects/spiteyellowplague/2.mp4",
             poster: ""
         },
         {
-            title: "Navmesh Ai",
-            video: "/assets/projects/spiteyellowplague/navmeshai.mp4",
-            poster: ""
-        },
-        {
-            title: "NavMesh Generation",
-            video: "/assets/projects/spiteyellowplague/navmeshgeneration.mp4",
+            title: "NavMesh Tool",
+            video: "/assets/projects/spiteyellowplague/3.mp4",
             poster: ""
         }
     ]
