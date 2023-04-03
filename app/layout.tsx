@@ -13,7 +13,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }):
       <body>
         <Navbar />
         {children}
-        {/*<Footer />*/}
       </body>
     </html>
   )
