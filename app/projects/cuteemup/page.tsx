@@ -58,7 +58,7 @@ const projectProp: ProjectProps = {
         {
             name: "Bastian Helly-Hansen",
             role: "SG",
-            website: ""
+            website: "https://bastianhellyhansen.artstation.com/"
         },
         {
             name: "Gustav Ryde",

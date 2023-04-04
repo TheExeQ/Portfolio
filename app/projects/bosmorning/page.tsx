@@ -112,7 +112,7 @@ const projectProp: ProjectProps = {
         },
         {
             title: "Frog",
-            video: "/assets/projects/morningofbo/3.mp4",
+            video: "/assets/projects/morningofbo/4.mp4",
             poster: ""
         }
     ]

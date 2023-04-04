@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { Cursor, useTypewriter } from "react-simple-typewriter"
 import { FaLinkedinIn, FaGithub, FaInstagram } from 'react-icons/fa';
+import { BsFillPersonFill } from 'react-icons/bs';
 
 import ProjectView from './components/projectsview'
 
@@ -64,6 +65,11 @@ export default function Home(): JSX.Element {
                 <a href="https://www.instagram.com/samuelryberg/" target="_blank">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaInstagram color="#F7AB0A" />
+                  </div>
+                </a>
+                <a href="/assets/resume.pdf" target="_blank">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <BsFillPersonFill color="#F7AB0A" />
                   </div>
                 </a>
               </div>
