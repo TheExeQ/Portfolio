@@ -42,7 +42,7 @@ const projectProp: ProjectProps = {
         {
             name: "Neo Nemeth",
             role: "SP",
-            website: ""
+            website: "https://www.neonemeth.net/"
         },
         {
             name: "Samuel Ryberg",
