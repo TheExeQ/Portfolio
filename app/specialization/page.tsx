@@ -1,14 +1,14 @@
 import Project, { ProjectProps } from '../components/project'
 
 const projectProp: ProjectProps = {
-    title: 'Network Replication System',
-    studio: '',
+    title: 'Network System',
+    studio: 'Solo Specialization Project',
 
     genre: "Any",
     platform: "Windows, MacOS & Linux",
     productionTime: "5 weeks (50%)",
     teamSize: "Solo",
-    contributions: ["UDP Sockets", "Cross Platform", "API Abstraction", "Variable Replication", "Dedicated Server Support"],
+    contributions: ["UDP Sockets", "Cross Platform", "API Abstraction", /*"Variable Replication",*/ "Dedicated Server Support"],
 
     description:
         (
@@ -19,7 +19,7 @@ const projectProp: ProjectProps = {
             </div>
         ),
     trailer: "/assets/specialization/arylnet.mp4",
-    poster: "/assets/projects/potionrun/potionrun.png",
+    poster: "/assets/specialization/arylnet.png",
 
     team: [],
 
