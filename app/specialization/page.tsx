@@ -18,7 +18,7 @@ const projectProp: ProjectProps = {
                 Additionally, I took a lot of inspiration from Unreal's replication system and wanted to create a simplified version of this for my own engine.
             </div>
         ),
-    trailer: "/assets/projects/spiteyellowplague/spite.mp4",
+    trailer: "/assets/specialization/arylnet.mp4",
     poster: "/assets/projects/potionrun/potionrun.png",
 
     team: [],
