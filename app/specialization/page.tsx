@@ -1,14 +1,14 @@
 import Project, { ProjectProps } from '../components/project'
 
 const projectProp: ProjectProps = {
-    title: 'Network Replication System',
-    studio: '',
+    title: 'Network System',
+    studio: 'Solo Specialization Project',
 
     genre: "Any",
     platform: "Windows, MacOS & Linux",
     productionTime: "5 weeks (50%)",
     teamSize: "Solo",
-    contributions: ["UDP Sockets", "Cross Platform", "API Abstraction", "Variable Replication", "Dedicated Server Support"],
+    contributions: ["UDP Sockets", "Cross Platform", "API Abstraction", /*"Variable Replication",*/ "Dedicated Server Support"],
 
     description:
         (
@@ -18,8 +18,8 @@ const projectProp: ProjectProps = {
                 Additionally, I took a lot of inspiration from Unreal's replication system and wanted to create a simplified version of this for my own engine.
             </div>
         ),
-    trailer: "/assets/projects/spiteyellowplague/spite.mp4",
-    poster: "/assets/projects/potionrun/potionrun.png",
+    trailer: "/assets/specialization/arylnet.mp4",
+    poster: "/assets/specialization/arylnet.png",
 
     team: [],
 

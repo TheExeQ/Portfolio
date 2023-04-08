@@ -21,7 +21,7 @@ const projectProp: ProjectProps = {
             </div>
         ),
 
-    trailer: "/assets/projects/spiteyellowplague/spite.mp4",
+    trailer: "/assets/projects/ekayaandpebbles/ekaya.mp4",
     poster: '/assets/projects/ekayaandpebbles/ekaya.png',
 
     team: [
@@ -86,7 +86,7 @@ const projectProp: ProjectProps = {
         {
             name: "Emily Bengtsson",
             role: "SA",
-            website: ""
+            website: "https://www.emilybengtsson.com/"
         },
         {
             name: "Moa Bergman",
