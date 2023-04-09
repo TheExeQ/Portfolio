@@ -25,14 +25,19 @@ const projectProp: ProjectProps = {
 
     containers: [
         {
-            title: "Placeholder",
-            video: "/assets/projects/morningofbo/bo.mp4",
-            poster: "/assets/projects/morningofbo/bo.png"
+            title: "API Abstraction",
+            video: "",
+            poster: "/assets/specialization/1.png"
         },
         {
-            title: "Placeholder",
-            video: "/assets/projects/bardknight/bardknight.mp4",
-            poster: "/assets/projects/bardknight/bardknight.png"
+            title: "Reciever Usage",
+            video: "",
+            poster: "/assets/specialization/2.png"
+        },
+        {
+            title: "Sender Usage",
+            video: "",
+            poster: "/assets/specialization/3.png"
         }
     ]
 }
