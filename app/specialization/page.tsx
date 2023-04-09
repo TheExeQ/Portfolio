@@ -13,9 +13,15 @@ const projectProp: ProjectProps = {
     description:
         (
             <div>
-                For my solo specialization project, I decided to tackle the challenge of creating a networking system for my own game engine.
-                I wanted to create a system that would be cross-platform, with an abstraction layer that would allow support for multiple different networking APIs.<br /><br />
-                Additionally, I took a lot of inspiration from Unreal's replication system and wanted to create a simplified version of this for my own engine.
+                During a 5 week period under my specialization course in school, I decided to take on the challenge of creating a network system and designing the website you are currently looking at. 
+                Throughout the process, I learned a great deal about networking, web development, and project management. <br /><br />
+                It was a tough but fulfilling experience that taught me the importance of sticking with it and putting in the effort.
+                To provide more insight into the process of making these two projects, I have added two separate segments where I talk a little more in-depth about my journey and the lessons learned. <br /><br />
+                <p className="font-bold text-2xl pb-2">Network System</p>
+                My goal was to develop a networking system for my game engine that could work seamlessly across different platforms. 
+                To achieve this, I aimed to create an abstraction layer that would enable support for multiple networking APIs. <br /><br />
+                Using Unreal Engine's replication system as a source of inspiration, I set out to develop a simpler version of their design specifically tailored for my game engine.<br /><br />
+                <p className="font-bold text-2xl pb-2">Website Development</p>
             </div>
         ),
     trailer: "/assets/specialization/arylnet.mp4",
