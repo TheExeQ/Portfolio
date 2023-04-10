@@ -68,6 +68,16 @@ const projectProp: ProjectProps = {
             title: "Sender Usage",
             video: "",
             poster: "/assets/specialization/3.png"
+        },
+        {
+            title: "Alpha Website Design",
+            video: "",
+            poster: "/assets/specialization/4.png"
+        },
+        {
+            title: "CI/CD Pipeline",
+            video: "",
+            poster: "/assets/specialization/5.png"
         }
     ]
 }
