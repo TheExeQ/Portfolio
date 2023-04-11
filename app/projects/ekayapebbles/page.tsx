@@ -60,22 +60,22 @@ const projectProp: ProjectProps = {
         {
             name: "Emal Ghouse",
             role: "SG",
-            website: ""
+            website: "https://emalghouse.artstation.com/"
         },
         {
             name: "Albin Gunther",
             role: "SG",
-            website: ""
+            website: "https://albingunther.artstation.com/"
         },
         {
             name: "Gustav Ryde",
             role: "SG",
-            website: ""
+            website: "https://gustavryde.artstation.com/"
         },
         {
             name: "Sebastian Schaffer",
             role: "SG",
-            website: ""
+            website: "https://sebastian_schaffer.artstation.com/"
         },
         {
             name: "Pernilla Sonne",
@@ -117,7 +117,7 @@ const projectProp: ProjectProps = {
         {
             name: "Mattias Larsson",
             role: "LD",
-            website: ""
+            website: "https://www.mattiaslarssondesign.com/"
         },
         {
             name: "Linus Lindborg-Persson",
@@ -128,7 +128,7 @@ const projectProp: ProjectProps = {
         {
             name: "Gopal Alvarez",
             role: "TA",
-            website: ""
+            website: "https://www.gopalalvarez.com/"
         },
         {
             name: "Charlin Hansson",

@@ -31,7 +31,7 @@ const projectProp: ProjectProps = {
         {
             name: "Alexander Rosendahl",
             role: "SP",
-            website: ""
+            website: "https://www.alexanderrosendahl.com/"
         },
         {
             name: "Samuel Ryberg",
@@ -57,12 +57,12 @@ const projectProp: ProjectProps = {
         {
             name: "Falke Persson",
             role: "SG",
-            website: ""
+            website: "https://falke.artstation.com/"
         },
         {
             name: "Gustav Ryde",
             role: "SG",
-            website: ""
+            website: "https://gustavryde.artstation.com/"
         },
         {
             name: "Anes Sabanovic",

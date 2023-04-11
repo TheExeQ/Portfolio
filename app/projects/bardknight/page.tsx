@@ -58,12 +58,12 @@ const projectProp: ProjectProps = {
         {
             name: "Simon Grefbäck",
             role: "SG",
-            website: ""
+            website: "https://simongrefback.artstation.com/"
         },
         {
             name: "Mirjam Hildahl",
             role: "SG",
-            website: ""
+            website: "https://confusedswedee.artstation.com/"
         },
         // SA
         {
@@ -74,7 +74,7 @@ const projectProp: ProjectProps = {
         {
             name: "Daniel Fornell",
             role: "SA",
-            website: ""
+            website: "https://danielnagy.portfoliobox.net/"
         },
         {
             name: "Hugo Jansson",
