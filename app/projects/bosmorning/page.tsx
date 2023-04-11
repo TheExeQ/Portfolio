@@ -32,7 +32,7 @@ const projectProp: ProjectProps = {
         {
             name: "Niklas Fredriksson",
             role: "SP",
-            website: ""
+            website: "https://www.niklasfredriksson.com/"
         },
         {
             name: "Niklas Jakobsen",
@@ -53,17 +53,17 @@ const projectProp: ProjectProps = {
         {
             name: "Victor Ek",
             role: "SG",
-            website: ""
+            website: "https://victorek.artstation.com/"
         },
         {
             name: "Elin Ekelöw",
             role: "SG",
-            website: ""
+            website: "https://elinekelow.artstation.com/"
         },
         {
             name: "Albin Gunther",
             role: "SG",
-            website: ""
+            website: "https://albingunther.artstation.com/"
         },
         // SA
         {
@@ -74,13 +74,13 @@ const projectProp: ProjectProps = {
         {
             name: "Daniel Fornell",
             role: "SA",
-            website: ""
+            website: "https://danielnagy.portfoliobox.net/"
         },
         // LD
         {
             name: "Vanessa Grundström",
             role: "LD",
-            website: ""
+            website: "https://www.grundstromdesign.com/"
         },
         {
             name: "Christoffer Janbris",

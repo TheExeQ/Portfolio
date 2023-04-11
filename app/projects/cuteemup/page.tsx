@@ -52,7 +52,7 @@ const projectProp: ProjectProps = {
         {
             name: "Molly Tandberg",
             role: "SP",
-            website: ""
+            website: "https://mollytandberg.dev"
         },
         // SG
         {
@@ -63,12 +63,12 @@ const projectProp: ProjectProps = {
         {
             name: "Gustav Ryde",
             role: "SG",
-            website: ""
+            website: "https://gustavryde.artstation.com/"
         },
         {
             name: "Lowe Silverlyra",
             role: "SG",
-            website: ""
+            website: "https://silverlyra.artstation.com/"
         },
         // SA
         {
