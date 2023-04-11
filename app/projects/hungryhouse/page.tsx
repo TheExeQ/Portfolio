@@ -69,12 +69,12 @@ const projectProp: ProjectProps = {
         {
             name: "Malin Fröjd",
             role: "SG",
-            website: ""
+            website: "https://malin_frojd.artstation.com/"
         },
         {
             name: "Daniel Gryningstjerna",
             role: "SG",
-            website: ""
+            website: "https://danielgryningstjerna.artstation.com/"
         },
         {
             name: "Pernilla Sonne",
