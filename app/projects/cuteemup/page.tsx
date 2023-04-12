@@ -85,17 +85,17 @@ const projectProp: ProjectProps = {
         {
             name: "Tilde Persson",
             role: "LD",
-            website: ""
+            website: "https://www.tildeperssondesign.com/"
         },
         {
             name: "Oliver Ringh",
             role: "LD",
-            website: ""
+            website: "https://oliverringh.wixsite.com/portfolio"
         },
         {
             name: "Hannes Wäst",
             role: "LD",
-            website: ""
+            website: "https://hanneswastdesign.wixsite.com/portfolio"
         },
     ],
 

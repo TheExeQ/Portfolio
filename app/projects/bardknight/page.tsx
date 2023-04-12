@@ -74,23 +74,23 @@ const projectProp: ProjectProps = {
         {
             name: "Daniel Fornell",
             role: "SA",
-            website: "https://danielnagy.portfoliobox.net/"
+            website: "http://www.danielfornell.com/"
         },
         {
             name: "Hugo Jansson",
             role: "SA",
-            website: ""
+            website: "https://hugojansson.portfoliobox.net/"
         },
         // LD
         {
             name: "Christoffer Carlsvärd",
             role: "LD",
-            website: ""
+            website: "https://carlsvard.wixsite.com/portfolio"
         },
         {
             name: "Christoffer Janbris",
             role: "LD",
-            website: ""
+            website: "https://christofferjanbris.wixsite.com/portfolio"
         },
         // ÖG
         {

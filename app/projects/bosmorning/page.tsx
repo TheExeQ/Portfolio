@@ -74,7 +74,7 @@ const projectProp: ProjectProps = {
         {
             name: "Daniel Fornell",
             role: "SA",
-            website: "https://danielnagy.portfoliobox.net/"
+            website: "http://www.danielfornell.com/"
         },
         // LD
         {
@@ -85,12 +85,12 @@ const projectProp: ProjectProps = {
         {
             name: "Christoffer Janbris",
             role: "LD",
-            website: ""
+            website: "https://christofferjanbris.wixsite.com/portfolio"
         },
         {
             name: "Linus Lindborg-Persson",
             role: "LD",
-            website: ""
+            website: "https://www.linuslindborg.com/"
         },
     ],
 
