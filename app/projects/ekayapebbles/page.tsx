@@ -80,7 +80,7 @@ const projectProp: ProjectProps = {
         {
             name: "Pernilla Sonne",
             role: "SG",
-            website: ""
+            website: "https://pernilla_sonne.artstation.com/"
         },
         // SA
         {
@@ -96,23 +96,23 @@ const projectProp: ProjectProps = {
         {
             name: "Alexander Diec",
             role: "SA",
-            website: ""
+            website: "https://www.alexanderdiec.com/"
         },
         {
             name: "Jacob Fransson",
             role: "SA",
-            website: ""
+            website: "https://www.jacobfransson.com/"
         },
         // LD
         {
             name: "Christoffer Janbris",
             role: "LD",
-            website: ""
+            website: "https://christofferjanbris.wixsite.com/portfolio"
         },
         {
             name: "Vincent Karagöz",
             role: "LD",
-            website: ""
+            website: "https://caidian.wixsite.com/portfolio"
         },
         {
             name: "Mattias Larsson",
@@ -122,7 +122,7 @@ const projectProp: ProjectProps = {
         {
             name: "Linus Lindborg-Persson",
             role: "LD",
-            website: ""
+            website: "https://www.linuslindborg.com/"
         },
         // TA
         {
@@ -133,7 +133,7 @@ const projectProp: ProjectProps = {
         {
             name: "Charlin Hansson",
             role: "TA",
-            website: ""
+            website: "https://charlinhansson1997.wixsite.com/portfolio"
         },
     ],
 

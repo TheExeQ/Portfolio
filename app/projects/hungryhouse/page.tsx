@@ -79,7 +79,7 @@ const projectProp: ProjectProps = {
         {
             name: "Pernilla Sonne",
             role: "SG",
-            website: ""
+            website: "https://pernilla_sonne.artstation.com/"
         },
         // SA
         {
