@@ -73,7 +73,7 @@ const projectProp: ProjectProps = {
         {
             name: "Mattias Ohlsson",
             role: "SA",
-            website: ""
+            website: "https://www.mattiasohlsson.com/"
         },
         {
             name: "Christopher Orantes Diaz",
@@ -84,12 +84,12 @@ const projectProp: ProjectProps = {
         {
             name: "Jonathan Mårtensson",
             role: "LD",
-            website: ""
+            website: "https://www.jonathanmartensson.com/"
         },
         {
             name: "Tilde Persson",
             role: "LD",
-            website: ""
+            website: "https://www.tildeperssondesign.com/"
         },
     ],
 
