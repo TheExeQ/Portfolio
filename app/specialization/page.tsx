@@ -57,27 +57,60 @@ const projectProp: ProjectProps = {
         {
             title: "API Abstraction",
             video: "",
-            poster: "/assets/specialization/1.png"
+            poster: "/assets/specialization/1.png",
+            desc: 
+            `
+            By using this abstraction layer, you can write your networking code in a way that is independent of the specific API being used. 
+            This means that you can switch between different networking APIs, such as ASIO and Winsock, without having to change your game engine code. 
+            Instead, you would only need to update the implementation of the abstraction layer to use the desired API, while the rest of your game engine code that interacts with the abstraction layer remains unchanged.
+            `
         },
         {
             title: "Reciever Usage",
             video: "",
             poster: "/assets/specialization/2.png",
+            desc: 
+            `
+            In this example, I'm demonstrating how to utilize my network interface to create a receiver. 
+            Using my socket builder class, you can construct a socket with various settings based on your requirements. 
+            Once the socket is built, you can pass it to the receiver class along with a lambda function that will be invoked every time a packet is received. 
+            This gives you the flexibility to customize the action to be taken when packets are received, allowing for dynamic behavior based on your specific needs.
+            `
         },
         {
             title: "Sender Usage",
             video: "",
-            poster: "/assets/specialization/3.png"
+            poster: "/assets/specialization/3.png",
+            desc: 
+            `
+            In this demonstration, I'm showcasing how to utilize my network interface to create a sender. 
+            By utilizing my socket builder class, you can construct a socket with customizable settings based on your requirements. 
+            Once the socket is built, you can pass it to the sender class. From there, you can use the send function to enqueue packets created with my packet class. 
+            These packets will be added to a queue and sent as soon as possible on a separate thread, allowing for efficient and asynchronous packet sending in your network implementation.
+            `
         },
         {
             title: "Alpha Website Design",
             video: "",
-            poster: "/assets/specialization/4.png"
+            poster: "/assets/specialization/4.png",
+            desc: 
+            `
+            Shown here is an early development screenshot of my website, showcasing the functional aspects that have been implemented. 
+            While the core functionalities are in place, the site is still lacking the styling elements that bring it to life, such as visual design and aesthetics. 
+            The styling will be added to enhance the overall look and feel of the website, making it more engaging and dynamic.
+            `
         },
         {
             title: "CI/CD Pipeline",
             video: "",
-            poster: "/assets/specialization/5.png"
+            poster: "/assets/specialization/5.png",
+            desc:
+            `
+            In this demonstration, I'm showcasing the Continuous Integration/Continuous Deployment (CI/CD) pipeline I've set up using GitHub Actions for my website. 
+            This automated process involves containerizing my website, allowing for easy replacement on my host server once a new version is ready for distribution. 
+            Additionally, the old packages are kept, providing the option to revert back if needed. 
+            This CI/CD pipeline streamlines the deployment process, ensuring efficient and reliable updates to my website while maintaining version control and flexibility for future changes.
+            `
         }
     ]
 }
