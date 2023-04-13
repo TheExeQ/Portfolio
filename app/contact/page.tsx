@@ -72,7 +72,10 @@ export default function Contact(): JSX.Element {
                                     </a>
                                     <a href="/assets/resume.pdf" target="_blank">
                                         <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
-                                            <BsFillPersonFill color="#F7AB0A" />
+                                            <div className="flex justify-between items-center">
+                                                <BsFillPersonFill color="#F7AB0A" />
+                                                <p className="pl-2 text-sm font-bold text-[#F7AB0A]">CV</p>
+                                            </div>
                                         </div>
                                     </a>
                                 </div>

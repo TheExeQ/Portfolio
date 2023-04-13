@@ -1,10 +1,12 @@
+"use client"
 import Image from 'next/image'
-import { JsxElement } from 'typescript';
+import { useState } from "react";
 
 interface ProjectContainerProps {
     title: string;
     video: string;
     poster: string;
+    desc?: string;
 }
 
 interface ProjectTeamProps {
@@ -38,6 +40,22 @@ export default function Project(props: ProjectProps): JSX.Element {
 
     props.team.sort((a, b) => order.indexOf(a.role) - order.indexOf(b.role));
 
+    const [selectedImageIndex, setselectedImageIndex] = useState(0);
+    const [showDetailedImage, setShowDetailedImage] = useState(false);
+
+    const toggleDetailedImage = () => {
+        setShowDetailedImage(!showDetailedImage);
+        toggleScroll(showDetailedImage);
+    }
+
+    const toggleScroll = (active: Boolean) => {
+        if (active) {
+            document.body.style.overflow = "auto";
+        } else {
+            document.body.style.overflow = "hidden";
+        }
+    }
+    
     return (
         <div className="w-full mt-auto">
             <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -80,7 +98,7 @@ export default function Project(props: ProjectProps): JSX.Element {
                             </div>
 
                             <div>
-                                <p className="text-lg font-bold"> {props.teamSize === "Solo" ? "Features" : "My Contributions"}</p>
+                                <p className="text-lg font-bold"> {props.teamSize === "Solo" ? "Features" : "My Contributions"} </p>
                                 <ul className="list-disc list-inside">
                                     {props.contributions.map((contribution, index) => {
                                         return (
@@ -103,9 +121,9 @@ export default function Project(props: ProjectProps): JSX.Element {
                         <h2 className="mb-4">
                             Project Summary
                         </h2>
-                        <p className="max-w-[80%] w-full mx-auto mb-2">
+                        <div className="max-w-[80%] w-full mx-auto mb-2">
                             {props.description}
-                        </p>
+                        </div>
                     </div>
                 </div>
 
@@ -115,14 +133,14 @@ export default function Project(props: ProjectProps): JSX.Element {
                             <h2 className="mb-4">
                                 Team
                             </h2>
-                            <p className="flex flex-wrap justify-center md:justify-between max-w-[80%] w-full mx-auto mb-2">
+                            <div className="flex flex-wrap justify-center md:justify-between max-w-[80%] w-full mx-auto mb-2">
                                 {order.filter((role) => {
                                     return props.team.some((member) => {
                                         return member.role === role;
                                     });
                                 }).map((role, index) => {
                                     return (
-                                        <div key={index} className="p-4">
+                                        <div key={"team" + index} className="p-4">
                                             <p className="text-lg font-bold mb-2">{role}</p>
                                             <ul className="list-inside">
                                                 {props.team.map((member, index) => {
@@ -142,14 +160,14 @@ export default function Project(props: ProjectProps): JSX.Element {
                                         </div>
                                     )
                                 })}
-                            </p>
+                            </div>
                         </div>
                     </div>) : (null)}
 
                 <div className="max-w-[1240px] w-full py-10 grid md:grid-cols-4 gap-8 border-t-2 border-gray-300">
                     {props.containers.map((container, index) => {
                         return (
-                            <div key={index} className="p-4 w-full h-full md:col-span-2 shadow-lg rounded-lg">
+                            <div key={ "containers" + index} className="p-4 w-full h-full md:col-span-2 shadow-lg rounded-lg">
                                 {container.video.trim() !== "" ?
                                     (
                                         <video className="h-auto" width={1920} height={1080} poster={container.poster} controls>
@@ -157,13 +175,26 @@ export default function Project(props: ProjectProps): JSX.Element {
                                         </video>
                                     ) :
                                     (
-                                        <Image className="h-auto" width={1920} height={1080} src={container.poster} alt="" />
+                                        <Image onClick={() => { toggleDetailedImage(); setselectedImageIndex(index); }} className="h-auto" width={1920} height={1080} src={container.poster} alt="" />
                                     )
                                 }
                                 <p className="mt-2 text-2xl font-bold text-center">{container.title}</p>
                             </div>
                         )
                     })}
+                </div>
+
+                <div className={showDetailedImage ? 
+                    `fixed top-0 left-0 bg-black/80 w-full h-full z-20` 
+                    : 
+                    "hidden"}>
+                    <div className="fixed p-6 top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] w-full md:w-[75%] 
+                    bg-white/90 z-30 rounded-xl text-center max-h-screen overflow-y-auto">
+                        <h1 className="py-2">{props.containers[selectedImageIndex].title}</h1>
+                        <Image className="md:px-[15%] py-2" width={1920} height={1080} src={props.containers[selectedImageIndex].poster} alt="" />
+                        <p className="md:mx-auto md:max-w-[75%] pb-4 text-xl font-semibold">{props.containers[selectedImageIndex].desc}</p>
+                        <button className="px-6 py-3 font-bold rounded-2xl" onClick={toggleDetailedImage} >Close</button>
+                    </div>
                 </div>
             </div>
         </div>
