@@ -62,7 +62,7 @@ const projectProp: ProjectProps = {
         {
             title: "Reciever Usage",
             video: "",
-            poster: "/assets/specialization/2.png"
+            poster: "/assets/specialization/2.png",
         },
         {
             title: "Sender Usage",
