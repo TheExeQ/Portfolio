@@ -9,6 +9,15 @@ export default function Navbar(): JSX.Element {
 
     const toggleMenu = () => {
         setShowMenu(!showMenu);
+        toggleScroll(showMenu);
+    }
+
+    const toggleScroll = (active: Boolean) => {
+        if (active) {
+            document.body.style.overflow = "auto";
+        } else {
+            document.body.style.overflow = "hidden";
+        }
     }
 
     return (

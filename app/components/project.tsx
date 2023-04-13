@@ -43,6 +43,19 @@ export default function Project(props: ProjectProps): JSX.Element {
     const [selectedImageIndex, setselectedImageIndex] = useState(0);
     const [showDetailedImage, setShowDetailedImage] = useState(false);
 
+    const toggleDetailedImage = () => {
+        setShowDetailedImage(!showDetailedImage);
+        toggleScroll(showDetailedImage);
+    }
+
+    const toggleScroll = (active: Boolean) => {
+        if (active) {
+            document.body.style.overflow = "auto";
+        } else {
+            document.body.style.overflow = "hidden";
+        }
+    }
+    
     return (
         <div className="w-full mt-auto">
             <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -162,7 +175,7 @@ export default function Project(props: ProjectProps): JSX.Element {
                                         </video>
                                     ) :
                                     (
-                                        <Image onClick={() => { setShowDetailedImage(true); setselectedImageIndex(index) }} className="h-auto" width={1920} height={1080} src={container.poster} alt="" />
+                                        <Image onClick={() => { toggleDetailedImage(); setselectedImageIndex(index); }} className="h-auto" width={1920} height={1080} src={container.poster} alt="" />
                                     )
                                 }
                                 <p className="mt-2 text-2xl font-bold text-center">{container.title}</p>
@@ -171,7 +184,7 @@ export default function Project(props: ProjectProps): JSX.Element {
                     })}
                 </div>
 
-                <div onClick={() => { setShowDetailedImage(false);}} className={showDetailedImage ? 
+                <div className={showDetailedImage ? 
                     `fixed top-0 left-0 bg-black/80 w-full h-full z-20` 
                     : 
                     "hidden"}>
@@ -179,7 +192,8 @@ export default function Project(props: ProjectProps): JSX.Element {
                     bg-white/90 z-30 rounded-xl text-center max-h-screen overflow-y-auto">
                         <h1 className="py-2">{props.containers[selectedImageIndex].title}</h1>
                         <Image className="md:px-[15%] py-2" width={1920} height={1080} src={props.containers[selectedImageIndex].poster} alt="" />
-                        <p className="md:mx-auto md:max-w-[75%] text-xl font-semibold">{props.containers[selectedImageIndex].desc}</p>
+                        <p className="md:mx-auto md:max-w-[75%] pb-4 text-xl font-semibold">{props.containers[selectedImageIndex].desc}</p>
+                        <button className="px-6 py-3 font-bold rounded-2xl" onClick={toggleDetailedImage} >Close</button>
                     </div>
                 </div>
             </div>
