@@ -63,16 +63,16 @@ export default function Navbar(): JSX.Element {
                     <div className="py-4 flex flex-col">
                         <ul className="uppercase">
                             <Link href="/">
-                                <li onClick={ () => setShowMenu(false)} className="py-4 text-sm hover:font-semibold">Home</li>
+                                <li onClick={toggleMenu} className="py-4 text-sm hover:font-semibold">Home</li>
                             </Link>
                             <Link href="/projects">
-                                <li onClick={ () => setShowMenu(false)} className="py-4 text-sm hover:font-semibold">Projects</li>
+                                <li onClick={toggleMenu} className="py-4 text-sm hover:font-semibold">Projects</li>
                             </Link>
                             <Link href="/specialization">
-                                <li onClick={ () => setShowMenu(false)} className="py-4 text-sm hover:font-semibold">Specialization</li>
+                                <li onClick={toggleMenu} className="py-4 text-sm hover:font-semibold">Specialization</li>
                             </Link>
                             <Link href="/contact">
-                                <li onClick={ () => setShowMenu(false)} className="py-4 text-sm hover:font-semibold">Contact</li>
+                                <li onClick={toggleMenu} className="py-4 text-sm hover:font-semibold">Contact</li>
                             </Link>
                         </ul>
                         <div className="pt-40">
