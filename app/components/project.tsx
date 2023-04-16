@@ -175,7 +175,7 @@ export default function Project(props: ProjectProps): JSX.Element {
                                         </video>
                                     ) :
                                     (
-                                        <Image onClick={() => { toggleDetailedImage(); setselectedImageIndex(index); }} className="h-auto" width={1920} height={1080} src={container.poster} alt="" />
+                                        <Image onClick={() => { toggleDetailedImage(); setselectedImageIndex(index); }} className="h-auto cursor-pointer" width={1920} height={1080} src={container.poster} alt="" />
                                     )
                                 }
                                 <p className="mt-2 text-2xl font-bold text-center">{container.title}</p>
