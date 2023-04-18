@@ -87,7 +87,7 @@ export default function Contact(): JSX.Element {
                         <div className="absolute bg-black/80 top-0 left-0 h-full w-full rounded-lg">
                             <div className="flex flex-col items-center justify-center h-full">
                                 <p className="text-white text-2xl text-center font-semibold">
-                                    Form not setup, please send manually to <a href="mailto:contact@samuelryberg.com" className="text-[#F7AB0A] underline">contact@samuelryberg.com</a>
+                                    Form not setup, please send manually to <a href="mailto:samuel.ryberg@gmail.com" className="text-[#F7AB0A] underline">samuel.ryberg@gmail.com</a>
                                 </p>
                             </div>
                         </div>
@@ -150,7 +150,7 @@ export default function Contact(): JSX.Element {
                                 </button>
                             </form>
                             <p className="text-center w-full uppercase py-2 mt-4">or</p>
-                            <p className="text-center w-full py-2">Manually to: <a href="mailto:contact@samuelryberg.com" className="text-[#F7AB0A] underline">contact@samuelryberg.com</a></p>
+                            <p className="text-center w-full py-2">Manually to: <a href="mailto:samuel.ryberg@gmail.com" className="text-[#F7AB0A] underline">samuel.ryberg@gmail.com</a></p>
                         </div>
                     </div>
                 </div>

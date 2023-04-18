@@ -175,7 +175,7 @@ export default function Project(props: ProjectProps): JSX.Element {
                                         </video>
                                     ) :
                                     (
-                                        <Image onClick={() => { toggleDetailedImage(); setselectedImageIndex(index); }} className="h-auto" width={1920} height={1080} src={container.poster} alt="" />
+                                        <Image onClick={() => { toggleDetailedImage(); setselectedImageIndex(index); }} className="h-auto cursor-pointer" width={1920} height={1080} src={container.poster} alt="" />
                                     )
                                 }
                                 <p className="mt-2 text-2xl font-bold text-center">{container.title}</p>
@@ -189,7 +189,7 @@ export default function Project(props: ProjectProps): JSX.Element {
                     : 
                     "hidden"}>
                     <div className="fixed p-6 top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] w-full md:w-[75%] 
-                    bg-white/90 z-30 rounded-xl text-center max-h-screen overflow-y-auto">
+                    bg-white/90 z-30 rounded-xl text-center max-h-[85vh] overflow-y-auto">
                         <h1 className="py-2">{props.containers[selectedImageIndex].title}</h1>
                         <Image className="md:px-[15%] py-2" width={1920} height={1080} src={props.containers[selectedImageIndex].poster} alt="" />
                         <p className="md:mx-auto md:max-w-[75%] pb-4 text-xl font-semibold">{props.containers[selectedImageIndex].desc}</p>
