@@ -9,7 +9,7 @@ import ProjectView from './components/projectsview'
 
 export default function Home(): JSX.Element {
   const [text, count] = useTypewriter({
-    words: ["Samuel Ryberg.", "a Game Developer."],
+    words: ["Samuel Ryberg.", "a Gameplay Programmer.", "a Tools Programmer.", "a Network Programmer."],
     loop: true,
     delaySpeed: 2000,
   })
@@ -40,12 +40,14 @@ export default function Home(): JSX.Element {
               <p className="font-semibold uppercase text-sm tracking-widest text-gray-600">
                 Welcome to my Portfolio
               </p>
-              <h1 className="h-24 md:h-auto py-4 text-gray-700">
-                Hi, I'm <span className="text-[#F7AB0A]">{text}</span>
-                <Cursor cursorColor="#F7AB0A" />
-              </h1>
+              <div className="h-36 flex flex-col justify-center">
+                <h1 className="h-auto py-4 text-gray-700">
+                  Hi, I'm <span className="text-[#F7AB0A]">{text}</span>
+                  <Cursor cursorColor="#F7AB0A" />
+                </h1>
+              </div>
               <p className="py-4 text-gray-700 max-w-[70%] m-auto md:m-0">
-              I'm a game developer from Sweden who enjoys creating games. In my free time, 
+              I'm a Gameplay, Tools, Network Programmer from Sweden who enjoys creating games. In my free time, 
               I like to cook and make/learn music.
               <br /><br />
               I'm always looking to learn new things and expand my knowledge in game development. 
