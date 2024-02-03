@@ -11,9 +11,9 @@ export default function Home(): JSX.Element {
   const [text, count] = useTypewriter({
     words: [
       "Samuel Ryberg.",
-      "a Gameplay Programmer.",
-      "a Tools Programmer.",
-      "a Network Programmer.",
+      "a Gameplay Engineer.",
+      "a Tools Engineer.",
+      "a Backend Engineer.",
     ],
     loop: true,
     delaySpeed: 2000,
@@ -52,7 +52,7 @@ export default function Home(): JSX.Element {
                 </h1>
               </div>
               <p className="py-4 text-gray-700 max-w-[70%] m-auto md:m-0">
-                I'm a Gameplay, Tools and Backend Programmer from Sweden who
+                I'm a Gameplay, Tools and Backend Engineer from Sweden who
                 enjoys creating games. In my free time, I like to cook and
                 make/learn music.
                 <br />
