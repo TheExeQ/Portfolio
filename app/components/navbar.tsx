@@ -94,14 +94,6 @@ export default function Navbar(): JSX.Element {
                   Projects
                 </li>
               </Link>
-              <Link href="/specialization">
-                <li
-                  onClick={toggleMenu}
-                  className="py-4 text-sm hover:font-semibold"
-                >
-                  Specialization
-                </li>
-              </Link>
               <Link href="/contact">
                 <li
                   onClick={toggleMenu}
