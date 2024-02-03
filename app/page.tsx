@@ -1,18 +1,23 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Cursor, useTypewriter } from "react-simple-typewriter"
-import { FaLinkedinIn, FaGithub, FaInstagram } from 'react-icons/fa';
-import { BsFillPersonFill } from 'react-icons/bs';
+import { motion } from "framer-motion";
+import { Cursor, useTypewriter } from "react-simple-typewriter";
+import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
+import { BsFillPersonFill } from "react-icons/bs";
 
-import ProjectView from './components/projectsview'
+import ProjectView from "./components/projectsview";
 
 export default function Home(): JSX.Element {
   const [text, count] = useTypewriter({
-    words: ["Samuel Ryberg.", "a Gameplay Programmer.", "a Tools Programmer.", "a Network Programmer."],
+    words: [
+      "Samuel Ryberg.",
+      "a Gameplay Programmer.",
+      "a Tools Programmer.",
+      "a Network Programmer.",
+    ],
     loop: true,
     delaySpeed: 2000,
-  })
+  });
 
   return (
     <div className="w-full h-screen text-center md:text-left">
@@ -47,14 +52,21 @@ export default function Home(): JSX.Element {
                 </h1>
               </div>
               <p className="py-4 text-gray-700 max-w-[70%] m-auto md:m-0">
-              I'm a Gameplay, Tools, Network Programmer from Sweden who enjoys creating games. In my free time, 
-              I like to cook and make/learn music.
-              <br /><br />
-              I'm always looking to learn new things and expand my knowledge in game development. 
-              I'm fascinated by the constantly evolving technology in this field and I'm always eager to stay on top of the latest trends and techniques.
+                I'm a Gameplay, Tools and Backend Programmer from Sweden who
+                enjoys creating games. In my free time, I like to cook and
+                make/learn music.
+                <br />
+                <br />
+                I'm always looking to learn new things and expand my knowledge
+                in game development. I'm fascinated by the constantly evolving
+                technology in this field and I'm always eager to stay on top of
+                the latest trends and techniques.
               </p>
               <div className="flex items-center justify-between my-4 max-w-[330px] py-4 mx-auto md:mx-0">
-                <a href="https://www.linkedin.com/in/samuelryberg/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/samuelryberg/"
+                  target="_blank"
+                >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaLinkedinIn color="#F7AB0A" />
                   </div>
@@ -64,7 +76,10 @@ export default function Home(): JSX.Element {
                     <FaGithub color="#F7AB0A" />
                   </div>
                 </a>
-                <a href="https://www.instagram.com/samuelryberg/" target="_blank">
+                <a
+                  href="https://www.instagram.com/samuelryberg/"
+                  target="_blank"
+                >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaInstagram color="#F7AB0A" />
                   </div>
@@ -73,7 +88,9 @@ export default function Home(): JSX.Element {
                   <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
                     <div className="flex justify-between items-center">
                       <BsFillPersonFill color="#F7AB0A" />
-                      <p className="pl-2 text-sm font-bold text-[#F7AB0A]">CV</p>
+                      <p className="pl-2 text-sm font-bold text-[#F7AB0A]">
+                        CV
+                      </p>
                     </div>
                   </div>
                 </a>
@@ -86,5 +103,5 @@ export default function Home(): JSX.Element {
         <ProjectView />
       </div>
     </div>
-  )
+  );
 }
